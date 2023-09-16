@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_snc_aws_sns_m2m_handlers_subscriptions" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>handler</element>
+            <list_id display_value="x_snc_aws_sns_m2m_handlers_subscriptions" element="NULL" name="x_snc_aws_sns_m2m_handlers_subscriptions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bfe6b38713fd5f006b9054c32244b0fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2018-05-05 23:55:31</sys_created_on>
+            <sys_id>3be6b38713fd5f006b9054c32244b0fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2018-05-05 23:55:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>subscription</element>
+            <list_id display_value="x_snc_aws_sns_m2m_handlers_subscriptions" element="NULL" name="x_snc_aws_sns_m2m_handlers_subscriptions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bfe6b38713fd5f006b9054c32244b0fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2018-05-05 23:55:31</sys_created_on>
+            <sys_id>bfe6b38713fd5f006b9054c32244b0fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2018-05-05 23:55:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_aws_sns_m2m_handlers_subscriptions</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2018-05-05 23:55:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfe6b38713fd5f006b9054c32244b0fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_aws_sns_m2m_handlers_subscriptions</sys_name>
+            <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_aws_sns_m2m_handlers_subscriptions_null</sys_update_name>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2018-05-05 23:55:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</application>
+        <file_path/>
+        <instance_id>7196912adba32490d5c911f84896197c</instance_id>
+        <instance_name>dev112375</instance_name>
+        <name>sys_ui_list_x_snc_aws_sns_m2m_handlers_subscriptions_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_aws_sns_m2m_handlers_subscriptions" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>handler</element>
+            <list_id display_value="x_snc_aws_sns_m2m_handlers_subscriptions" element="NULL" name="x_snc_aws_sns_m2m_handlers_subscriptions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bfe6b38713fd5f006b9054c32244b0fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2018-05-05 23:55:31</sys_created_on>
+            <sys_id>3be6b38713fd5f006b9054c32244b0fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2018-05-05 23:55:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>subscription</element>
+            <list_id display_value="x_snc_aws_sns_m2m_handlers_subscriptions" element="NULL" name="x_snc_aws_sns_m2m_handlers_subscriptions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bfe6b38713fd5f006b9054c32244b0fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2018-05-05 23:55:31</sys_created_on>
+            <sys_id>bfe6b38713fd5f006b9054c32244b0fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2018-05-05 23:55:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_aws_sns_m2m_handlers_subscriptions</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2018-05-05 23:55:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfe6b38713fd5f006b9054c32244b0fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_aws_sns_m2m_handlers_subscriptions</sys_name>
+            <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_aws_sns_m2m_handlers_subscriptions_null</sys_update_name>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2018-05-05 23:55:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>]]></payload>
+        <payload_hash>-611806587</payload_hash>
+        <record_name>Aws Sns M2m Handlers Subscriptions</record_name>
+        <reverted_from/>
+        <source>77565a9547597d1025c42458c26d4380</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-14 19:44:34</sys_created_on>
+        <sys_id>4a669e9547597d1025c42458c26d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a953949e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-14 19:44:34</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>0a669e959d597d10359f9fc9f1fee8d1</update_guid>
+        <update_guid_history>0a669e959d597d10359f9fc9f1fee8d1:-611806587</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-16 03:06:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>4d94c2226e744af5a41f0da1263f77d9</sys_id>
+        <sys_metadata>bfe6b38713fd5f006b9054c32244b0fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_aws_sns_m2m_handlers_subscriptions</sys_name>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_parent display_value="">94669a9547597d1025c42458c26d43b3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_scope_delete display_value="">378c22e3814c44ecbc024f54246ab810</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_snc_aws_sns_m2m_handlers_subscriptions_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_snc_aws_sns_m2m_handlers_subscriptions_null">4a669e9547597d1025c42458c26d43d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-16 03:06:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f21489394791715025c42458c26d4345" label="Subscriptions Handlers" max_length="40" name="x_snc_aws_sns_m2m_x_snc_aws_sn_x_snc_aws_sn" type="collection">
+        <element attributes="encode_utf8=false" label="Handlers" max_length="32" name="x_snc_aws_sns_handler" reference="x_snc_aws_sns_handler" type="reference"/>
+        <element attributes="encode_utf8=false" label="Subscriptions" max_length="32" name="x_snc_aws_sns_subscription" reference="x_snc_aws_sns_subscription" type="reference"/>
+        <index name="index">
+            <element name="x_snc_aws_sns_handler"/>
+        </index>
+        <index name="index2">
+            <element name="x_snc_aws_sns_subscription"/>
+        </index>
+    </element>
+</database>
