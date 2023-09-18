@@ -4,32 +4,25 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Network">cd1b6215471d7d1025c42458c26d436a</category>
+        <category display_value="Compute">267b6615471d7d1025c42458c26d43fc</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<div>
-<div>
-<p><strong>VPC Details:</strong></p>
+        <description><![CDATA[<p><strong>VPC Details:</strong></p>
 <ol style="list-style-type: none; list-style-position: inside;"><li><strong>VPC Name</strong>: [Provide a unique and descriptive name]</li><li><strong>CIDR Block</strong>: [Define the IP address range in CIDR notation, e.g., 10.0.0.0/16]</li><li><strong>Subnet Details</strong>:
 <ul style="list-style-type: disc; list-style-position: inside;"><li>Subnet 1: [CIDR Block, Availability Zone]</li><li>Subnet 2: [CIDR Block, Availability Zone]</li><li>[Add more subnets if needed]</li></ul>
-</li><li><strong>Internet Gateway</strong>: [Yes/No]</li><li><strong>Route Tables</strong>: [Specify route tables or default]</li><li><strong>Security Groups and Network ACLs</strong>: [List specific requirements, if any]</li><li><strong>VPN/Direct Connect Requirements</strong>: [Specify if applicable]</li><li><strong>DNS Settings</strong>: [Default/Custom DNS servers]</li><li><strong>Tags</strong>: [Optional: Add any relevant tags]</li></ol>
-</div>
-</div>
-<div><form>
-<div> </div>
-</form></div>]]></description>
+</li><li><strong>Internet Gateway</strong>: [Yes/No]</li><li><strong>Route Tables</strong>: [Specify route tables or default]</li><li><strong>Security Groups and Network ACLs</strong>: [List specific requirements, if any]</li><li><strong>VPN/Direct Connect Requirements</strong>: [Specify if applicable]</li><li><strong>DNS Settings</strong>: [Default/Custom DNS servers]</li><li><strong>Tags</strong>: [Optional: Add any relevant tags]</li></ol>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="Provision AWS Resources via TCA">41fd5b9d4791bd1025c42458c26d4340</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>false</ignore_price>
+        <ignore_price>true</ignore_price>
         <image/>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
@@ -55,7 +48,7 @@
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=6474a6d147d97d1025c42458c26d4349&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=21a6ed96471d755025c42458c26d43f5&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
@@ -66,50 +59,50 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description>A catalog item to request approvals the creation of an AWS VPC</short_description>
+        <short_description>A catalog item to request approvals the creation of an AWS Instance</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-14 20:45:54</sys_created_on>
-        <sys_id>6474a6d147d97d1025c42458c26d4349</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2023-09-17 18:49:50</sys_created_on>
+        <sys_id>21a6ed96471d755025c42458c26d43f5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>AWS VPC Request</sys_name>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
-        <sys_update_name>sc_cat_item_6474a6d147d97d1025c42458c26d4349</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-14 21:17:28</sys_updated_on>
+        <sys_update_name>sc_cat_item_21a6ed96471d755025c42458c26d43f5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-17 18:58:32</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>6</version>
+        <version>17</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=6474a6d147d97d1025c42458c26d4349"/>
-    <fx_price action="delete_multiple" query="id=6474a6d147d97d1025c42458c26d4349"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=21a6ed96471d755025c42458c26d43f5"/>
+    <fx_price action="delete_multiple" query="id=21a6ed96471d755025c42458c26d43f5"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>6474a6d147d97d1025c42458c26d4349</id>
+        <id>21a6ed96471d755025c42458c26d43f5</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-14 20:45:54</sys_created_on>
-        <sys_id>ac74e25547d97d1025c42458c26d4326</sys_id>
+        <sys_created_on>2023-09-17 18:49:50</sys_created_on>
+        <sys_id>69a6ed96471d755025c42458c26d43f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-14 20:45:54</sys_updated_on>
+        <sys_updated_on>2023-09-17 18:49:50</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
@@ -117,16 +110,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>recurring_price</field>
-        <id>6474a6d147d97d1025c42458c26d4349</id>
+        <id>21a6ed96471d755025c42458c26d43f5</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-14 20:45:54</sys_created_on>
-        <sys_id>ac74e25547d97d1025c42458c26d4327</sys_id>
+        <sys_created_on>2023-09-17 18:49:50</sys_created_on>
+        <sys_id>e5a6ed96471d755025c42458c26d43fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-14 20:45:54</sys_updated_on>
+        <sys_updated_on>2023-09-17 18:49:50</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

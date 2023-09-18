@@ -13,7 +13,7 @@
         <description/>
         <ih_action>true</ih_action>
         <internal_name>create_tca_workspace_variables</internal_name>
-        <label_cache>[{"name":"{{action.workspace_id}}","label":"action➛Workspace-Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.token}}","label":"action➛TOKEN","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"bfd33460-8143-46ea-8e75-10e6e471897c"}},{"name":"{{action.x_github_api_version}}","label":"action➛X-GitHub-API-Version","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"85396e2f-c4a0-4a3b-a4dd-e7352a15768b"}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.accept}}","label":"action➛Accept","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.organization_name}}","label":"action➛Organization-Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.oauth_token_id}}","label":"action➛OAuth-Token_Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e003c368-4de1-4088-af00-127cd841b7e7"}},{"name":"{{action.auth0_token}}","label":"action➛Auth0-Token","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.vcs_repo}}","label":"action➛VCS-Repo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"396422cd-8dee-493e-8615-b8bbba62654d"}},{"name":"{{action.aws_access_key}}","label":"action➛AWS-Access-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"69be616e-a102-45b1-ad4d-e342e2084a31"}},{"name":"{{action.aws_secret_key}}","label":"action➛AWS-Secret-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c048ba49-6306-477c-86af-490a09717f33"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}","label":"step➛REST - Add Access Key➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].status_code}}","label":"step➛REST - Add Access Key➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
+        <label_cache>[{"name":"{{action.workspace_id}}","label":"action➛Workspace-Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.token}}","label":"action➛TOKEN","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"bfd33460-8143-46ea-8e75-10e6e471897c"}},{"name":"{{action.x_github_api_version}}","label":"action➛X-GitHub-API-Version","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"85396e2f-c4a0-4a3b-a4dd-e7352a15768b"}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.accept}}","label":"action➛Accept","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.organization_name}}","label":"action➛Organization-Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.oauth_token_id}}","label":"action➛OAuth-Token_Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e003c368-4de1-4088-af00-127cd841b7e7"}},{"name":"{{action.auth0_token}}","label":"action➛Auth0-Token","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.vcs_repo}}","label":"action➛VCS-Repo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"396422cd-8dee-493e-8615-b8bbba62654d"}},{"name":"{{action.aws_access_key}}","label":"action➛AWS-Access-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"69be616e-a102-45b1-ad4d-e342e2084a31"}},{"name":"{{action.aws_secret_key}}","label":"action➛AWS-Secret-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c048ba49-6306-477c-86af-490a09717f33"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}","label":"step➛REST - Add Access Key➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].status_code}}","label":"step➛REST - Add Access Key➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].response_body}}","label":"step➛REST - Add Secret Key ➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].status_code}}","label":"step➛REST - Add Secret Key ➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
         <master_snapshot>e87791394755715025c42458c26d4324</master_snapshot>
         <name>Create TCA Workspace Variables</name>
         <natlang/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d97311fd4715715025c42458c26d433f</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>117</sys_mod_count>
         <sys_name>Create TCA Workspace Variables</sys_name>
         <sys_overrides/>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d97311fd4715715025c42458c26d433f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:15</sys_updated_on>
+        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -58,32 +58,42 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
         <document_key>d97311fd4715715025c42458c26d433f</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-16 04:09:03</sys_created_on>
-        <sys_id>797351fd4715715025c42458c26d4316</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 04:09:03</sys_updated_on>
-        <value/>
-        <variable display_value="Status Code">217311fd4715715025c42458c26d43d2</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_definition</document>
-        <document_key>d97311fd4715715025c42458c26d433f</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:03</sys_created_on>
         <sys_id>fd7351fd4715715025c42458c26d4316</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 04:09:21</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD697311fd28157150fceea521cd4990ce":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD697311fd28157150fceea521cd4990ce.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"c72ab42a-1894-40a9-a27b-18979a013d70\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD697311fd28157150fceea521cd4990ce\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2023-09-17 01:49:20</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD697311fd28157150fceea521cd4990ce":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD697311fd28157150fceea521cd4990ce.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"c72ab42a-1894-40a9-a27b-18979a013d70\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD697311fd28157150fceea521cd4990ce\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">6d7311fd4715715025c42458c26d43d6</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d97311fd4715715025c42458c26d433f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>access_key_response</field>
+        <id>d97311fd4715715025c42458c26d433f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:50:41</sys_created_on>
+        <sys_id>e06d7186475df15025c42458c26d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:50:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</table>
+        <value>{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>access_key_status_code</field>
+        <id>d97311fd4715715025c42458c26d433f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:50:41</sys_created_on>
+        <sys_id>686d7186475df15025c42458c26d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:50:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</table>
+        <value>{{step[a60948b5-a971-4c35-9800-1a11c43976dc].status_code}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>response_body</field>
         <id>d97311fd4715715025c42458c26d433f</id>
@@ -95,6 +105,30 @@
         <sys_updated_on>2023-09-16 04:09:03</sys_updated_on>
         <table>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</table>
         <value>{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>secret_key_response</field>
+        <id>d97311fd4715715025c42458c26d433f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:50:41</sys_created_on>
+        <sys_id>a46d7186475df15025c42458c26d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:50:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</table>
+        <value>{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>secret_key_status_code</field>
+        <id>d97311fd4715715025c42458c26d433f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:50:41</sys_created_on>
+        <sys_id>2c6d7186475df15025c42458c26d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:50:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</table>
+        <value>{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].status_code}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>status_code</field>
@@ -162,10 +196,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:29:22</sys_created_on>
         <sys_id>9f18d9794755715025c42458c26d4367</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:49:04</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:59:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9f18d9794755715025c42458c26d4367"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -223,6 +257,34 @@
         <sys_updated_on>2023-09-16 05:27:37</sys_updated_on>
         <value/>
         <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9f18d9794755715025c42458c26d4367</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:42:30</sys_created_on>
+        <sys_id>788bfd42475df15025c42458c26d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:42:30</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9f18d9794755715025c42458c26d4367</document_key>
+        <order>49</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:33:59</sys_created_on>
+        <sys_id>8499f54e471df15025c42458c26d43c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Save As Attachment">f9df589687301300735f7d5e27cb0b2d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -384,6 +446,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enable_retry_policy</field>
+        <id>9f18d9794755715025c42458c26d4367</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:42:30</sys_created_on>
+        <sys_id>f48bfd42475df15025c42458c26d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:42:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>9f18d9794755715025c42458c26d4367</id>
         <sys_created_by>admin</sys_created_by>
@@ -455,6 +529,18 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>api/v2/workspaces/{{action.workspace_id}}/vars</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>save_response_as_attachment</field>
+        <id>9f18d9794755715025c42458c26d4367</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:33:59</sys_created_on>
+        <sys_id>0099f54e471df15025c42458c26d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:33:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=9f18d9794755715025c42458c26d4367"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=9f18d9794755715025c42458c26d4367"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=9f18d9794755715025c42458c26d4367"/>
@@ -464,13 +550,13 @@
         <input_name>body</input_name>
         <instance>9f18d9794755715025c42458c26d4367</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar payload \u003d {\n  \"data\": {\n    \"type\":\"vars\",\n    \"attributes\": {\n      \"key\":\"AWS_SECRET_ACCESS_KEY\",\n      \"value\": fd_data.action_inputs.aws_secret_key,\n      \"description\":\"some description\",\n      \"category\":\"env\",\n      \"hcl\":false,\n      \"sensitive\":true\n    }\n  }\n};\n\nreturn JSON.stringify(payload);\n"}}</script>
+        <script>{"body":{"scriptActive":true,"script":"\nvar payload \u003d {\n  \"data\": {\n    \"type\":\"vars\",\n    \"attributes\": {\n      \"key\":\"AWS_SECRET_ACCESS_KEY\",\n      \"value\": fd_data.action_inputs.aws_secret_key,\n      \"description\":\"some description\",\n      \"category\":\"env\",\n      \"hcl\":false,\n      \"sensitive\":true\n    }\n  }\n};\n\nreturn JSON.stringify(payload);\n\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:29:22</sys_created_on>
         <sys_id>9f18d9794755715025c42458c26d4373</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:51:03</sys_updated_on>
+        <sys_updated_on>2023-09-17 02:02:37</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9f18d9794755715025c42458c26d4367"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
@@ -490,10 +576,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:02</sys_created_on>
         <sys_id>ed7311fd4715715025c42458c26d4397</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 04:30:31</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:59:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ed7311fd4715715025c42458c26d4397"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -523,6 +609,20 @@
         <sys_updated_on>2023-09-16 04:09:02</sys_updated_on>
         <value>post</value>
         <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ed7311fd4715715025c42458c26d4397</document_key>
+        <order>49</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-16 16:51:40</sys_created_on>
+        <sys_id>4d02840a471db15025c42458c26d43ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Save As Attachment">f9df589687301300735f7d5e27cb0b2d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -639,6 +739,20 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>ed7311fd4715715025c42458c26d4397</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:39:54</sys_created_on>
+        <sys_id>e2ea3902475df15025c42458c26d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:39:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ed7311fd4715715025c42458c26d4397</document_key>
         <order>5</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -649,6 +763,20 @@
         <sys_updated_on>2023-09-16 04:09:02</sys_updated_on>
         <value>define_connection_inline</value>
         <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ed7311fd4715715025c42458c26d4397</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:39:54</sys_created_on>
+        <sys_id>eaea3902475df15025c42458c26d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:39:54</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ed7311fd4715715025c42458c26d4397"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -708,6 +836,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-09-16 04:09:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enable_retry_policy</field>
+        <id>ed7311fd4715715025c42458c26d4397</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:39:54</sys_created_on>
+        <sys_id>aaea3902475df15025c42458c26d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:39:54</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -783,6 +923,30 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>api/v2/workspaces/{{action.workspace_id}}/vars</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>ed7311fd4715715025c42458c26d4397</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:39:54</sys_created_on>
+        <sys_id>62ea3902475df15025c42458c26d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:39:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>save_response_as_attachment</field>
+        <id>ed7311fd4715715025c42458c26d4397</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-16 16:51:40</sys_created_on>
+        <sys_id>c502840a471db15025c42458c26d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-16 16:51:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=ed7311fd4715715025c42458c26d4397"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=ed7311fd4715715025c42458c26d4397"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=ed7311fd4715715025c42458c26d4397"/>
@@ -796,9 +960,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:02</sys_created_on>
         <sys_id>a97311fd4715715025c42458c26d43b0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:51:55</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:05:55</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ed7311fd4715715025c42458c26d4397"/>
     <sys_hub_action_input action="delete_multiple" query="model=d97311fd4715715025c42458c26d433f^sys_idNOT IN005695754755715025c42458c26d431f,a386dd754755715025c42458c26d43fc,adb1adfd4795715025c42458c26d432b,d57311fd4715715025c42458c26d4359,d97311fd4715715025c42458c26d4345"/>
@@ -820,7 +984,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>AKIA3JBF5VSFFZ6AGT3Y</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -865,14 +1029,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:21:30</sys_created_on>
         <sys_id>005695754755715025c42458c26d431f</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:12</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:04:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -988,7 +1152,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>geOooHFOxd5WhAjrNxvuGAEJWdLJEYNZXb+3ShOA</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1033,14 +1197,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 05:11:18</sys_created_on>
         <sys_id>adb1adfd4795715025c42458c26d432b</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:12</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:04:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1117,14 +1281,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:02</sys_created_on>
         <sys_id>d57311fd4715715025c42458c26d4359</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>123</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:12</sys_updated_on>
+        <sys_updated_on>2023-09-17 02:02:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1156,7 +1320,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>Bearer E8yC5fZ9Gk6jnw.atlasv1.wChpdRX79MBU1kCMLla0uGmKzyUNvN3r8NpdUfu85RE7rA8ZyMg4LAJvc1qVAMMOLxo</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1201,14 +1365,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:01</sys_created_on>
         <sys_id>d97311fd4715715025c42458c26d4345</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:12</sys_updated_on>
+        <sys_updated_on>2023-09-16 17:15:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1222,181 +1386,7 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d97311fd4715715025c42458c26d4345"/>
-    <sys_hub_action_output action="delete_multiple" query="model=d97311fd4715715025c42458c26d433f^sys_idNOT IN217311fd4715715025c42458c26d43d2,2d7311fd4715715025c42458c26d43da,617311fd4715715025c42458c26d43eb,6d7311fd4715715025c42458c26d43d6"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=integer,uiTypeLabel=Integer,uiUniqueId=5f7266d6-fc6a-42b7-bd9b-bbf1717087f8</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>status_code</element>
-        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="Integer">integer</internal_type>
-        <label>Status Code</label>
-        <mandatory>true</mandatory>
-        <max_length>40</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
-        <model_id>d97311fd4715715025c42458c26d433f</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-16 04:09:02</sys_created_on>
-        <sys_id>217311fd4715715025c42458c26d43d2</sys_id>
-        <sys_mod_count>73</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:13</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=217311fd4715715025c42458c26d43d2"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=217311fd4715715025c42458c26d43d2"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=3a406472-3e31-4b7c-b9fa-25f13a1c7dd0</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>response_body</element>
-        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Response Body</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
-        <model_id>d97311fd4715715025c42458c26d433f</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
-        <next_element/>
-        <order>3</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-16 04:09:02</sys_created_on>
-        <sys_id>2d7311fd4715715025c42458c26d43da</sys_id>
-        <sys_mod_count>73</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:13</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2d7311fd4715715025c42458c26d43da"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=2d7311fd4715715025c42458c26d43da"/>
+    <sys_hub_action_output action="delete_multiple" query="model=d97311fd4715715025c42458c26d433f^sys_idNOT IN617311fd4715715025c42458c26d43eb,6d7311fd4715715025c42458c26d43d6,701d7546475df15025c42458c26d43ae,b01d7546475df15025c42458c26d43a7,bc1d7546475df15025c42458c26d43b1,fc1d7546475df15025c42458c26d43a1"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1444,7 +1434,7 @@
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
         <next_element/>
-        <order>4</order>
+        <order>6</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1462,14 +1452,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:02</sys_created_on>
         <sys_id>617311fd4715715025c42458c26d43eb</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>123</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:13</sys_updated_on>
+        <sys_updated_on>2023-09-17 02:02:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1531,7 +1521,7 @@
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1549,14 +1539,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:02</sys_created_on>
         <sys_id>6d7311fd4715715025c42458c26d43d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 04:09:02</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:49:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1571,6 +1561,354 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6d7311fd4715715025c42458c26d43d6"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6d7311fd4715715025c42458c26d43d6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d678ecdf-8c59-4f3f-a4a7-03930041fb41</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>secret_key_status_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Secret Key Status Code</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model_id>d97311fd4715715025c42458c26d433f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:49:19</sys_created_on>
+        <sys_id>701d7546475df15025c42458c26d43ae</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 02:02:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=701d7546475df15025c42458c26d43ae"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=701d7546475df15025c42458c26d43ae"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d48db8f3-34d6-481a-8e71-117715be58ea</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>access_key_response</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Access Key Response</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model_id>d97311fd4715715025c42458c26d433f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:49:19</sys_created_on>
+        <sys_id>b01d7546475df15025c42458c26d43a7</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 02:02:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b01d7546475df15025c42458c26d43a7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b01d7546475df15025c42458c26d43a7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=aa20021c-d320-400a-9d14-13adb86df71a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>secret_key_response</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Secret Key Response</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model_id>d97311fd4715715025c42458c26d433f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:49:19</sys_created_on>
+        <sys_id>bc1d7546475df15025c42458c26d43b1</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 02:02:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bc1d7546475df15025c42458c26d43b1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bc1d7546475df15025c42458c26d43b1"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=df15b38e-9337-4e73-a2fd-45e4ccda3d19</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>access_key_status_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Access Key Status Code</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model_id>d97311fd4715715025c42458c26d433f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:49:19</sys_created_on>
+        <sys_id>fc1d7546475df15025c42458c26d43a1</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 02:02:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fc1d7546475df15025c42458c26d43a1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fc1d7546475df15025c42458c26d43a1"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=d97311fd4715715025c42458c26d433f"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=d97311fd4715715025c42458c26d433f^sys_idNOT INbd7351fd4715715025c42458c26d4319"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
@@ -1700,7 +2038,7 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_d97311fd4715715025c42458c26d433f"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f^sys_idNOT IN257311fd4715715025c42458c26d43f0,6d7311fd4715715025c42458c26d43d9,a17311fd4715715025c42458c26d43ea,ad7311fd4715715025c42458c26d43d5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f^sys_idNOT IN257311fd4715715025c42458c26d43f0,301d7546475df15025c42458c26d43aa,3c1d7546475df15025c42458c26d43b4,6d7311fd4715715025c42458c26d43d9,f01d7546475df15025c42458c26d43a6,fc1d7546475df15025c42458c26d43b0"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -1721,6 +2059,52 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-09-16 04:09:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>access_key_response</element>
+        <help/>
+        <hint/>
+        <label>Access Key Response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:49:19</sys_created_on>
+        <sys_id>301d7546475df15025c42458c26d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:49:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>secret_key_response</element>
+        <help/>
+        <hint/>
+        <label>Secret Key Response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:49:19</sys_created_on>
+        <sys_id>3c1d7546475df15025c42458c26d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:49:19</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1748,17 +2132,17 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>response_body</element>
+        <element>access_key_status_code</element>
         <help/>
         <hint/>
-        <label>Response Body</label>
+        <label>Access Key Status Code</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-16 04:09:02</sys_created_on>
-        <sys_id>a17311fd4715715025c42458c26d43ea</sys_id>
+        <sys_created_on>2023-09-17 01:49:19</sys_created_on>
+        <sys_id>f01d7546475df15025c42458c26d43a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
@@ -1766,22 +2150,22 @@
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 04:09:02</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:49:19</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>status_code</element>
+        <element>secret_key_status_code</element>
         <help/>
         <hint/>
-        <label>Status Code</label>
+        <label>Secret Key Status Code</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-16 04:09:02</sys_created_on>
-        <sys_id>ad7311fd4715715025c42458c26d43d5</sys_id>
+        <sys_created_on>2023-09-17 01:49:19</sys_created_on>
+        <sys_id>fc1d7546475df15025c42458c26d43b0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
@@ -1789,7 +2173,7 @@
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 04:09:02</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:49:19</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1798,17 +2182,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"4977d1394755715025c42458c26d4361","name":"plan","plan_signature":null}}</plan>
-        <snapshot>e51b25394719715025c42458c26d43d6</snapshot>
+        <snapshot>fd20064e475df15025c42458c26d438e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4977d1394755715025c42458c26d4361</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:17</sys_updated_on>
+        <sys_updated_on>2023-09-17 02:02:48</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1822,7 +2206,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>create_tca_workspace_variables</internal_name>
-        <label_cache>[{"name":"{{action.workspace_id}}","label":"action➛Workspace-Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.token}}","label":"action➛TOKEN","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"bfd33460-8143-46ea-8e75-10e6e471897c"}},{"name":"{{action.x_github_api_version}}","label":"action➛X-GitHub-API-Version","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"85396e2f-c4a0-4a3b-a4dd-e7352a15768b"}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.accept}}","label":"action➛Accept","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.organization_name}}","label":"action➛Organization-Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.oauth_token_id}}","label":"action➛OAuth-Token_Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e003c368-4de1-4088-af00-127cd841b7e7"}},{"name":"{{action.auth0_token}}","label":"action➛Auth0-Token","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.vcs_repo}}","label":"action➛VCS-Repo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"396422cd-8dee-493e-8615-b8bbba62654d"}},{"name":"{{action.aws_access_key}}","label":"action➛AWS-Access-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"69be616e-a102-45b1-ad4d-e342e2084a31"}},{"name":"{{action.aws_secret_key}}","label":"action➛AWS-Secret-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c048ba49-6306-477c-86af-490a09717f33"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}","label":"step➛REST - Add Access Key➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].status_code}}","label":"step➛REST - Add Access Key➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
+        <label_cache>[{"name":"{{action.workspace_id}}","label":"action➛Workspace-Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.token}}","label":"action➛TOKEN","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"bfd33460-8143-46ea-8e75-10e6e471897c"}},{"name":"{{action.x_github_api_version}}","label":"action➛X-GitHub-API-Version","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"85396e2f-c4a0-4a3b-a4dd-e7352a15768b"}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.accept}}","label":"action➛Accept","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.organization_name}}","label":"action➛Organization-Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.oauth_token_id}}","label":"action➛OAuth-Token_Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e003c368-4de1-4088-af00-127cd841b7e7"}},{"name":"{{action.auth0_token}}","label":"action➛Auth0-Token","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.vcs_repo}}","label":"action➛VCS-Repo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"396422cd-8dee-493e-8615-b8bbba62654d"}},{"name":"{{action.aws_access_key}}","label":"action➛AWS-Access-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"69be616e-a102-45b1-ad4d-e342e2084a31"}},{"name":"{{action.aws_secret_key}}","label":"action➛AWS-Secret-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c048ba49-6306-477c-86af-490a09717f33"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}","label":"step➛REST - Add Access Key➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].status_code}}","label":"step➛REST - Add Access Key➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].response_body}}","label":"step➛REST - Add Secret Key ➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].status_code}}","label":"step➛REST - Add Secret Key ➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
         <master>true</master>
         <name>Create TCA Workspace Variables</name>
         <natlang/>
@@ -1835,7 +2219,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e87791394755715025c42458c26d4324</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1843,7 +2227,7 @@
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:14:34</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:59:30</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1877,21 +2261,31 @@
         <value>0</value>
         <variable display_value="Don't Treat as Error">b47791394755715025c42458c26d43bc</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_snapshot</document>
-        <document_key>e87791394755715025c42458c26d4324</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+    <sys_element_mapping action="delete_multiple" query="id=e87791394755715025c42458c26d4324"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>access_key_response</field>
+        <id>e87791394755715025c42458c26d4324</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-16 04:26:28</sys_created_on>
-        <sys_id>b07791394755715025c42458c26d43d6</sys_id>
+        <sys_created_on>2023-09-17 01:59:32</sys_created_on>
+        <sys_id>9e6f3d8a475df15025c42458c26d43b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 04:26:28</sys_updated_on>
-        <value/>
-        <variable display_value="Status Code">3c7791394755715025c42458c26d4371</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=e87791394755715025c42458c26d4324"/>
+        <sys_updated_on>2023-09-17 01:59:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</table>
+        <value>{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>access_key_status_code</field>
+        <id>e87791394755715025c42458c26d4324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:32</sys_created_on>
+        <sys_id>166f3d8a475df15025c42458c26d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</table>
+        <value>{{step[a60948b5-a971-4c35-9800-1a11c43976dc].status_code}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>response_body</field>
         <id>e87791394755715025c42458c26d4324</id>
@@ -1903,6 +2297,30 @@
         <sys_updated_on>2023-09-16 04:26:28</sys_updated_on>
         <table>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</table>
         <value>{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>secret_key_response</field>
+        <id>e87791394755715025c42458c26d4324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:32</sys_created_on>
+        <sys_id>526f3d8a475df15025c42458c26d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</table>
+        <value>{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>secret_key_status_code</field>
+        <id>e87791394755715025c42458c26d4324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:32</sys_created_on>
+        <sys_id>da6f3d8a475df15025c42458c26d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</table>
+        <value>{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].status_code}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>status_code</field>
@@ -1958,10 +2376,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 05:12:15</sys_created_on>
         <sys_id>2fe1e53147d5715025c42458c26d43cf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:49:15</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2fe1e53147d5715025c42458c26d43cf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2093,6 +2511,20 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>2fe1e53147d5715025c42458c26d43cf</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>c26f3d8a475df15025c42458c26d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2fe1e53147d5715025c42458c26d43cf</document_key>
         <order>20</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -2180,6 +2612,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enable_retry_policy</field>
+        <id>2fe1e53147d5715025c42458c26d43cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>426f3d8a475df15025c42458c26d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>2fe1e53147d5715025c42458c26d43cf</id>
         <sys_created_by>admin</sys_created_by>
@@ -2260,13 +2704,13 @@
         <input_name>body</input_name>
         <instance>2fe1e53147d5715025c42458c26d43cf</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar payload \u003d {\n  \"data\": {\n    \"type\":\"vars\",\n    \"attributes\": {\n      \"key\":\"AWS_SECRET_ACCESS_KEY\",\n      \"value\": fd_data.action_inputs.aws_secret_key,\n      \"description\":\"some description\",\n      \"category\":\"env\",\n      \"hcl\":false,\n      \"sensitive\":true\n    }\n  }\n};\n\nreturn JSON.stringify(payload);\n"}}</script>
+        <script>{"body":{"scriptActive":true,"script":"\nvar payload \u003d {\n  \"data\": {\n    \"type\":\"vars\",\n    \"attributes\": {\n      \"key\":\"AWS_SECRET_ACCESS_KEY\",\n      \"value\": fd_data.action_inputs.aws_secret_key,\n      \"description\":\"some description\",\n      \"category\":\"env\",\n      \"hcl\":false,\n      \"sensitive\":true\n    }\n  }\n};\n\nreturn JSON.stringify(payload);\n\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 05:12:16</sys_created_on>
         <sys_id>ebe1e53147d5715025c42458c26d43db</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:15</sys_updated_on>
+        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2fe1e53147d5715025c42458c26d43cf"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
@@ -2286,12 +2730,40 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_id>ac7791394755715025c42458c26d4341</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:12:15</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ac7791394755715025c42458c26d4341"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ac7791394755715025c42458c26d4341</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>066f3d8a475df15025c42458c26d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ac7791394755715025c42458c26d4341</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>0e6f3d8a475df15025c42458c26d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>ac7791394755715025c42458c26d4341</document_key>
@@ -2347,6 +2819,20 @@
         <sys_updated_on>2023-09-16 04:26:27</sys_updated_on>
         <value>https://app.terraform.io/</value>
         <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ac7791394755715025c42458c26d4341</document_key>
+        <order>49</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-16 16:53:49</sys_created_on>
+        <sys_id>9c82484a471db15025c42458c26d439b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Save As Attachment">f9df589687301300735f7d5e27cb0b2d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2494,6 +2980,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enable_retry_policy</field>
+        <id>ac7791394755715025c42458c26d4341</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>0a6f3d8a475df15025c42458c26d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>ac7791394755715025c42458c26d4341</id>
         <sys_created_by>admin</sys_created_by>
@@ -2565,6 +3063,30 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>api/v2/workspaces/{{action.workspace_id}}/vars</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>ac7791394755715025c42458c26d4341</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>ce6f3d8a475df15025c42458c26d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>save_response_as_attachment</field>
+        <id>ac7791394755715025c42458c26d4341</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-16 16:53:49</sys_created_on>
+        <sys_id>1c82484a471db15025c42458c26d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-16 16:53:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=ac7791394755715025c42458c26d4341"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=ac7791394755715025c42458c26d4341"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=ac7791394755715025c42458c26d4341"/>
@@ -2578,9 +3100,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_id>247791394755715025c42458c26d435a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:15</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:09:45</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ac7791394755715025c42458c26d4341"/>
     <sys_hub_action_input action="delete_multiple" query="model=e87791394755715025c42458c26d4324^sys_idNOT IN647791394755715025c42458c26d4328,6c7791394755715025c42458c26d432e,e07791394755715025c42458c26d4334,e87791394755715025c42458c26d433b,ec7791394755715025c42458c26d4337"/>
@@ -2602,7 +3124,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>Bearer E8yC5fZ9Gk6jnw.atlasv1.wChpdRX79MBU1kCMLla0uGmKzyUNvN3r8NpdUfu85RE7rA8ZyMg4LAJvc1qVAMMOLxo</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -2647,14 +3169,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_id>647791394755715025c42458c26d4328</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:15</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:09:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2731,14 +3253,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_id>6c7791394755715025c42458c26d432e</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:15</sys_updated_on>
+        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2854,7 +3376,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>geOooHFOxd5WhAjrNxvuGAEJWdLJEYNZXb+3ShOA</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -2899,14 +3421,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_id>e87791394755715025c42458c26d433b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:15</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:09:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2938,7 +3460,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>AKIA3JBF5VSFFZ6AGT3Y</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -2983,14 +3505,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_id>ec7791394755715025c42458c26d4337</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:15</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:09:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3004,7 +3526,181 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ec7791394755715025c42458c26d4337"/>
-    <sys_hub_action_output action="delete_multiple" query="model=e87791394755715025c42458c26d4324^sys_idNOT IN387791394755715025c42458c26d4376,3c7791394755715025c42458c26d4371,787791394755715025c42458c26d43b8,b47791394755715025c42458c26d43bc"/>
+    <sys_hub_action_output action="delete_multiple" query="model=e87791394755715025c42458c26d4324^sys_idNOT IN026f3d8a475df15025c42458c26d4346,0a6f3d8a475df15025c42458c26d4351,387791394755715025c42458c26d4376,466f3d8a475df15025c42458c26d4355,826f3d8a475df15025c42458c26d434b,b47791394755715025c42458c26d43bc"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=df15b38e-9337-4e73-a2fd-45e4ccda3d19</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>access_key_status_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Access Key Status Code</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model_id>e87791394755715025c42458c26d4324</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>026f3d8a475df15025c42458c26d4346</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=026f3d8a475df15025c42458c26d4346"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=026f3d8a475df15025c42458c26d4346"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d678ecdf-8c59-4f3f-a4a7-03930041fb41</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>secret_key_status_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Secret Key Status Code</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model_id>e87791394755715025c42458c26d4324</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>0a6f3d8a475df15025c42458c26d4351</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0a6f3d8a475df15025c42458c26d4351"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0a6f3d8a475df15025c42458c26d4351"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3052,7 +3748,7 @@
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -3070,14 +3766,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_id>387791394755715025c42458c26d4376</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 04:26:27</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3096,7 +3792,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=integer,uiTypeLabel=Integer,uiUniqueId=5f7266d6-fc6a-42b7-bd9b-bbf1717087f8</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=aa20021c-d320-400a-9d14-13adb86df71a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3120,94 +3816,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>status_code</element>
-        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="Integer">integer</internal_type>
-        <label>Status Code</label>
-        <mandatory>true</mandatory>
-        <max_length>40</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
-        <model_id>e87791394755715025c42458c26d4324</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-16 04:26:27</sys_created_on>
-        <sys_id>3c7791394755715025c42458c26d4371</sys_id>
-        <sys_mod_count>17</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:15</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3c7791394755715025c42458c26d4371"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=3c7791394755715025c42458c26d4371"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=3a406472-3e31-4b7c-b9fa-25f13a1c7dd0</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>response_body</element>
+        <element>secret_key_response</element>
         <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -3218,7 +3827,7 @@
         <hint/>
         <internal_link/>
         <internal_type display_value="String">string</internal_type>
-        <label>Response Body</label>
+        <label>Secret Key Response</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
@@ -3226,7 +3835,7 @@
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
         <next_element/>
-        <order>3</order>
+        <order>5</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -3242,16 +3851,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-16 04:26:27</sys_created_on>
-        <sys_id>787791394755715025c42458c26d43b8</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>466f3d8a475df15025c42458c26d4355</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:15</sys_updated_on>
+        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3264,8 +3873,95 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=787791394755715025c42458c26d43b8"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=787791394755715025c42458c26d43b8"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=466f3d8a475df15025c42458c26d4355"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=466f3d8a475df15025c42458c26d4355"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d48db8f3-34d6-481a-8e71-117715be58ea</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>access_key_response</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Access Key Response</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model_id>e87791394755715025c42458c26d4324</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>826f3d8a475df15025c42458c26d434b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=826f3d8a475df15025c42458c26d434b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=826f3d8a475df15025c42458c26d434b"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3313,7 +4009,7 @@
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
         <next_element/>
-        <order>4</order>
+        <order>6</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -3331,14 +4027,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_id>b47791394755715025c42458c26d43bc</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:52:15</sys_updated_on>
+        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3482,19 +4178,19 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_e87791394755715025c42458c26d4324"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e87791394755715025c42458c26d4324^sys_idNOT IN787791394755715025c42458c26d4375,b87791394755715025c42458c26d43b7,f47791394755715025c42458c26d43bb,fc7791394755715025c42458c26d43c0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e87791394755715025c42458c26d4324^sys_idNOT IN026f3d8a475df15025c42458c26d434e,866f3d8a475df15025c42458c26d4354,b87791394755715025c42458c26d43b7,c26f3d8a475df15025c42458c26d434a,c26f3d8a475df15025c42458c26d4358,fc7791394755715025c42458c26d43c0"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>status_code</element>
+        <element>access_key_response</element>
         <help/>
         <hint/>
-        <label>Status Code</label>
+        <label>Access Key Response</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-16 04:26:27</sys_created_on>
-        <sys_id>787791394755715025c42458c26d4375</sys_id>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>026f3d8a475df15025c42458c26d434e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
@@ -3502,7 +4198,30 @@
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 04:26:27</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>secret_key_status_code</element>
+        <help/>
+        <hint/>
+        <label>Secret Key Status Code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>866f3d8a475df15025c42458c26d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -3530,17 +4249,17 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>response_body</element>
+        <element>access_key_status_code</element>
         <help/>
         <hint/>
-        <label>Response Body</label>
+        <label>Access Key Status Code</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-16 04:26:27</sys_created_on>
-        <sys_id>f47791394755715025c42458c26d43bb</sys_id>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>c26f3d8a475df15025c42458c26d434a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
@@ -3548,7 +4267,30 @@
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 04:26:27</sys_updated_on>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>secret_key_response</element>
+        <help/>
+        <hint/>
+        <label>Secret Key Response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-17 01:59:31</sys_created_on>
+        <sys_id>c26f3d8a475df15025c42458c26d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 01:59:31</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

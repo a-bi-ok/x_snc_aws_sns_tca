@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="AWS VPC Request">6474a6d147d97d1025c42458c26d4349</sc_cat_item>
-        <sc_category display_value="Network">cd1b6215471d7d1025c42458c26d436a</sc_category>
+        <sc_cat_item display_value="AWS VPC Request">21a6ed96471d755025c42458c26d43f5</sc_cat_item>
+        <sc_category display_value="Compute">267b6615471d7d1025c42458c26d43fc</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-14 21:17:28</sys_created_on>
-        <sys_id>0fabe655471d7d1025c42458c26d437c</sys_id>
+        <sys_created_on>2023-09-17 18:49:50</sys_created_on>
+        <sys_id>2da6ed96471d755025c42458c26d43ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Network.AWS VPC Request</sys_name>
+        <sys_name>Compute.AWS Instance Request</sys_name>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
-        <sys_update_name>sc_cat_item_category_0fabe655471d7d1025c42458c26d437c</sys_update_name>
+        <sys_update_name>sc_cat_item_category_2da6ed96471d755025c42458c26d43ff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-14 21:17:28</sys_updated_on>
+        <sys_updated_on>2023-09-17 18:49:50</sys_updated_on>
     </sc_cat_item_category>
 </record_update>

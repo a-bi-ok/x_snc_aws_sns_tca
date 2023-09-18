@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2541239547d1bd1025c42458c26d431e</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>Execute TCA Workspace Run </sys_name>
         <sys_overrides/>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_2541239547d1bd1025c42458c26d431e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:25</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:15:02</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -464,13 +464,13 @@
         <input_name>body</input_name>
         <instance>f141239547d1bd1025c42458c26d4377</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n// var cred \u003d new GlideRecord(\u0027aws_credentials\u0027);\n// cred.addActiveQuery();\n// cred.query(\"name\u003ddefault^type\u003daws\");\n\n// while (cred.next()) {\n//   var access_key \u003d cred.getValue(\u0027access_key\u0027);\n//   var secret_key \u003d cred.getValue(\u0027secret_key\u0027);\n// }\n\n\nvar payload \u003d {\n    \"data\": {\n        \"attributes\": {\n            \"is-destroy\": false,\n            \"message\": \"Apply resources\"\n        },\n        \"type\": \"runs\",\n        \"relationships\": {\n            \"workspace\": {\n                \"data\": {\n                    \"id\": fd_data.action_inputs.workspace_id,\n                    \"type\": \"workspaces\"\n                }\n            }\n        }\n    }\n};\n\nreturn JSON.stringify(payload);"}}</script>
+        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n// var Encrypter \u003d new GlideEncrypter();\n// var cred \u003d new GlideRecord(\u0027aws_credentials\u0027);\n// cred.addActiveQuery();\n// cred.query(\"name\u003ddefault^type\u003daws\");\n// while (cred.next()) {\n//   var access_key \u003d cred.getValue(\u0027access_key\u0027);\n//   var secret_key \u003d Encrypter.decrypt(cred.getValue(\u0027secret_key\u0027));\n// }\n\nvar payload \u003d {\n    \"data\": {\n        \"attributes\": {\n            \"is-destroy\": false,\n            \"message\": \"Apply resources\"\n        },\n        \"type\": \"runs\",\n        \"relationships\": {\n            \"workspace\": {\n                \"data\": {\n                    \"id\": fd_data.action_inputs.workspace_id,\n                    \"type\": \"workspaces\"\n                }\n            }\n        }\n    }\n};\n\nreturn JSON.stringify(payload);"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:11:40</sys_created_on>
         <sys_id>7541239547d1bd1025c42458c26d439c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:16</sys_updated_on>
+        <sys_updated_on>2023-09-16 16:46:59</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
@@ -505,7 +505,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>Bearer E8yC5fZ9Gk6jnw.atlasv1.wChpdRX79MBU1kCMLla0uGmKzyUNvN3r8NpdUfu85RE7rA8ZyMg4LAJvc1qVAMMOLxo</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -550,14 +550,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:11:40</sys_created_on>
         <sys_id>a141239547d1bd1025c42458c26d434a</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:22</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:14:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -634,14 +634,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:11:40</sys_created_on>
         <sys_id>e541239547d1bd1025c42458c26d4351</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:22</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:14:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -805,14 +805,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:11:41</sys_created_on>
         <sys_id>7941239547d1bd1025c42458c26d43b2</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:23</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:14:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -892,14 +892,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:11:41</sys_created_on>
         <sys_id>7d41239547d1bd1025c42458c26d43a9</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:23</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:14:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1066,14 +1066,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:11:41</sys_created_on>
         <sys_id>f541239547d1bd1025c42458c26d43b6</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:23</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:14:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1269,17 +1269,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Execute TCA Workspace Run ">2541239547d1bd1025c42458c26d431e</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"81592fd54715bd1025c42458c26d43d5","name":"plan","plan_signature":null}}</plan>
-        <snapshot>2093ed3547d5715025c42458c26d4384</snapshot>
+        <snapshot>f4d220c24751f15025c42458c26d437a</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:46:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>81592fd54715bd1025c42458c26d43d5</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:26</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:15:03</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1744,13 +1744,13 @@
         <input_name>body</input_name>
         <instance>e059ebd54715bd1025c42458c26d43c2</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n// var cred \u003d new GlideRecord(\u0027aws_credentials\u0027);\n// cred.addActiveQuery();\n// cred.query(\"name\u003ddefault^type\u003daws\");\n\n// while (cred.next()) {\n//   var access_key \u003d cred.getValue(\u0027access_key\u0027);\n//   var secret_key \u003d cred.getValue(\u0027secret_key\u0027);\n// }\n\n\nvar payload \u003d {\n    \"data\": {\n        \"attributes\": {\n            \"is-destroy\": false,\n            \"message\": \"Apply resources\"\n        },\n        \"type\": \"runs\",\n        \"relationships\": {\n            \"workspace\": {\n                \"data\": {\n                    \"id\": fd_data.action_inputs.workspace_id,\n                    \"type\": \"workspaces\"\n                }\n            }\n        }\n    }\n};\n\nreturn JSON.stringify(payload);"}}</script>
+        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n// var Encrypter \u003d new GlideEncrypter();\n// var cred \u003d new GlideRecord(\u0027aws_credentials\u0027);\n// cred.addActiveQuery();\n// cred.query(\"name\u003ddefault^type\u003daws\");\n// while (cred.next()) {\n//   var access_key \u003d cred.getValue(\u0027access_key\u0027);\n//   var secret_key \u003d Encrypter.decrypt(cred.getValue(\u0027secret_key\u0027));\n// }\n\nvar payload \u003d {\n    \"data\": {\n        \"attributes\": {\n            \"is-destroy\": false,\n            \"message\": \"Apply resources\"\n        },\n        \"type\": \"runs\",\n        \"relationships\": {\n            \"workspace\": {\n                \"data\": {\n                    \"id\": fd_data.action_inputs.workspace_id,\n                    \"type\": \"workspaces\"\n                }\n            }\n        }\n    }\n};\n\nreturn JSON.stringify(payload);"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:46:49</sys_created_on>
         <sys_id>6859ebd54715bd1025c42458c26d43da</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:25</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:15:01</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e059ebd54715bd1025c42458c26d43c2"/>
     <sys_hub_action_input action="delete_multiple" query="model=d059ebd54715bd1025c42458c26d438c^sys_idNOT IN1459ebd54715bd1025c42458c26d4396,5c59ebd54715bd1025c42458c26d438f,9859ebd54715bd1025c42458c26d439b"/>
@@ -1817,14 +1817,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:46:49</sys_created_on>
         <sys_id>1459ebd54715bd1025c42458c26d4396</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:24</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:15:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1856,7 +1856,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>Bearer E8yC5fZ9Gk6jnw.atlasv1.wChpdRX79MBU1kCMLla0uGmKzyUNvN3r8NpdUfu85RE7rA8ZyMg4LAJvc1qVAMMOLxo</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1901,14 +1901,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:46:48</sys_created_on>
         <sys_id>5c59ebd54715bd1025c42458c26d438f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:24</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:15:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2159,14 +2159,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:46:49</sys_created_on>
         <sys_id>2459ebd54715bd1025c42458c26d43e5</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:25</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:15:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2246,14 +2246,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:46:49</sys_created_on>
         <sys_id>ac59ebd54715bd1025c42458c26d43ed</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:25</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:15:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2333,14 +2333,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:46:49</sys_created_on>
         <sys_id>e859ebd54715bd1025c42458c26d43f1</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 05:19:25</sys_updated_on>
+        <sys_updated_on>2023-09-16 19:15:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
