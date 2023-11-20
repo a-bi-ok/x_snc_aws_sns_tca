@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=11041000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>41fd5b9d4791bd1025c42458c26d4340</copied_from>
+        <copied_from_name>Provision AWS Resources via TCA</copied_from_name>
+        <description>Provision AWS Resources via TCA with VCS</description>
+        <internal_name>provision_aws_vpc</internal_name>
+        <label_cache>[{"name":"4f61de59-1122-493b-9d23-51cee6de537c.organization","label":"2 - Get Catalog Variables➛organization","reference":"","reference_display":"organization","type":"choice","base_type":"choice","choices":[{"label":"Gruntlab","value":"gruntlab","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"4f61de59-1122-493b-9d23-51cee6de537c.vcs_repo","label":"2 - Get Catalog Variables➛vcs_repo","reference":"","reference_display":"vcs_repo","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"8f463457-68f9-48f2-97c0-78395cdddd2e.oauth_token_id","label":"3 - Get TCA Org OAuth Token ID➛OAuth-Token-Id","reference_display":"OAuth-Token-Id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1e36a6f8-f3dc-4a46-aa43-3275960f82ec"}},{"name":"6b7821eb-0069-41ee-a367-71e248a8aa18.oauth_client_id","label":"2 - Get TCA Org OAuth Client ID➛OAuth-Client-Id","reference_display":"OAuth-Client-Id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"e94c874e-5868-49d7-9aba-396dc64ce18b"}},{"name":"a9eb8c62-58d1-4b3f-818c-4b9e8539bdfb.organization","label":"2 - Get Catalog Variables➛organization","reference":"","reference_display":"organization","type":"choice","base_type":"choice","choices":[{"label":"Gruntlab","value":"gruntlab","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.cat_item","label":"Trigger - Service Catalog➛Requested Item Record➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item"},{"name":"Service Catalog_1.request_item.cat_item.sys_name","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sc_cat_item","column_name":"sys_name"},{"name":"a9eb8c62-58d1-4b3f-818c-4b9e8539bdfb.vcs_repo","label":"2 - Get Catalog Variables➛vcs_repo","reference":"","reference_display":"vcs_repo","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"60d0d297-961b-4e4b-acd4-fc54cc60cbb6.workspace_id","label":"4 - Create TCA Workspace with VCS➛Workspace-Id","reference_display":"Workspace-Id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"81fac36a-dc22-4209-955f-7fccbc83e002"}},{"name":"flow_variable.organization_name","label":"Flow Variables➛Organization Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"8101bf87-f237-4920-9ed2-ed132fe09e0d"}},{"name":"flow_variable.vcs_repo","label":"Flow Variables➛VCS Repo","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"028da33f-a3cc-4abc-8491-f7928de70c9d"}},{"name":"Updated_1.current.company","label":"Trigger - Record Updated➛Customer Lifecycles Record➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"x_snc_aws_sns_customer_lifecycles","column_name":"company"}]</label_cache>
+        <master_snapshot>89d82c894762f11025c42458c26d43aa</master_snapshot>
+        <name>Provision AWS Customer VPC</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>e6de744d4726f11025c42458c26d43c0</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2e0ac094722f11025c42458c26d4383</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Provision AWS Customer VPC</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name>sys_hub_flow_c2e0ac094722f11025c42458c26d4383</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c2e0ac094722f11025c42458c26d4383"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c2e0ac094722f11025c42458c26d4383"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_aws_sns_customer_lifecycles">approval=approved^NQstate=3<item display_value="Approved" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="approved"/>
+            <item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="true" operator="=" or="false" value="3"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:02:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6de744d4726f11025c42458c26d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:02:02</sys_updated_on>
+        <table>x_snc_aws_sns_customer_lifecycles</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>c2e0ac094722f11025c42458c26d4383</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:55:20</sys_created_on>
+        <sys_id>2b0b45c947a6f11025c42458c26d43c7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:20</sys_updated_on>
+        <trigger display_value="">e6de744d4726f11025c42458c26d43c0</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c2e0ac094722f11025c42458c26d4383^sys_idNOT IN2b0b45c947a6f11025c42458c26d43c7"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c2e0ac094722f11025c42458c26d4383^sys_idNOT IN68ce7c0d4726f11025c42458c26d43fd"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:01:37</sys_created_on>
+        <sys_id>68ce7c0d4726f11025c42458c26d43fd</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:21</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=68ce7c0d4726f11025c42458c26d43fd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>68ce7c0d4726f11025c42458c26d43fd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:01:37</sys_created_on>
+        <sys_id>20ce7c0d4726f11025c42458c26d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:01:37</sys_updated_on>
+        <value>x_snc_aws_sns_customer_lifecycles</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>68ce7c0d4726f11025c42458c26d43fd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:01:37</sys_created_on>
+        <sys_id>28ce7c0d4726f11025c42458c26d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:01:37</sys_updated_on>
+        <value>approval=approved^NQstate=3</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=68ce7c0d4726f11025c42458c26d43fd"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c2e0ac094722f11025c42458c26d4383"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c2e0ac094722f11025c42458c26d4383^sys_idNOT INc2e0ac094722f11025c42458c26d4384"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c2e0ac094722f11025c42458c26d4383</id>
+        <name>Provision AWS VPC</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:12</sys_created_on>
+        <sys_id>c2e0ac094722f11025c42458c26d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c2e0ac094722f11025c42458c26d4384"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c2e0ac094722f11025c42458c26d4383^sys_idNOT IN7db16c894722f11025c42458c26d4303,92e0ac094722f11025c42458c26d4399,f1b12c894722f11025c42458c26d43f3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</model>
+        <model_id>c2e0ac094722f11025c42458c26d4383</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c2e0ac094722f11025c42458c26d4383</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:54:44</sys_created_on>
+        <sys_id>7db16c894722f11025c42458c26d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:54:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7db16c894722f11025c42458c26d4303"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</model>
+        <model_id>c2e0ac094722f11025c42458c26d4383</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c2e0ac094722f11025c42458c26d4383</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:12</sys_created_on>
+        <sys_id>92e0ac094722f11025c42458c26d4399</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=92e0ac094722f11025c42458c26d4399"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</model>
+        <model_id>c2e0ac094722f11025c42458c26d4383</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c2e0ac094722f11025c42458c26d4383</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:54:44</sys_created_on>
+        <sys_id>f1b12c894722f11025c42458c26d43f3</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f1b12c894722f11025c42458c26d43f3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c2e0ac094722f11025c42458c26d4383"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c2e0ac094722f11025c42458c26d4383"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c2e0ac094722f11025c42458c26d4383^sys_idNOT IN66e0ec094722f11025c42458c26d4362,aae0ec094722f11025c42458c26d434d,aee0ec094722f11025c42458c26d433d,dae0ac094722f11025c42458c26d43e3,e2e0ec094722f11025c42458c26d436f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</action_type>
+        <action_type_parent display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>66e0ec094722f11025c42458c26d4362</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 23:18:55</sys_updated_on>
+        <ui_id>aad0beb9-a152-4f97-8293-d28a454a52cc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=66e0ec094722f11025c42458c26d4362"/>
+    <sys_element_mapping action="delete_multiple" query="id=66e0ec094722f11025c42458c26d4362"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>workspace_id</field>
+        <id>66e0ec094722f11025c42458c26d4362</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>e6e0ec094722f11025c42458c26d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e87791394755715025c42458c26d4324</table>
+        <value>{{60d0d297-961b-4e4b-acd4-fc54cc60cbb6.workspace_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=66e0ec094722f11025c42458c26d4362^sys_idNOT IN66e0ec094722f11025c42458c26d4363,eae0ec094722f11025c42458c26d4363,eee0ec094722f11025c42458c26d4363"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>token</input_name>
+        <instance>66e0ec094722f11025c42458c26d4362</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"token":{"scriptActive":true,"script":"var Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027api_key_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003dTerraform Cloud Team Token^type\u003dapi_key\");\nwhile (cred.next()) {\n  var api_key \u003d \"Bearer \"+Encrypter.decrypt(cred.getValue(\u0027api_key\u0027));\n}\nreturn api_key;\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>66e0ec094722f11025c42458c26d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:14</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>aws_access_key</input_name>
+        <instance>66e0ec094722f11025c42458c26d4362</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"aws_access_key":{"scriptActive":true,"script":"\nvar Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027aws_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003ddefault^type\u003daws\");\nwhile (cred.next()) {\nvar access_key \u003d cred.getValue(\u0027access_key\u0027);\n// var secret_key \u003d Encrypter.decrypt(cred.getValue(\u0027secret_key\u0027));\n}\nreturn access_key;\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>eae0ec094722f11025c42458c26d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:14</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>aws_secret_key</input_name>
+        <instance>66e0ec094722f11025c42458c26d4362</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"aws_secret_key":{"scriptActive":true,"script":"var Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027aws_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003ddefault^type\u003daws\");\nwhile (cred.next()) {\n// var access_key \u003d cred.getValue(\u0027access_key\u0027);\nvar secret_key \u003d Encrypter.decrypt(cred.getValue(\u0027secret_key\u0027));\n}\nreturn secret_key;\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>eee0ec094722f11025c42458c26d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:14</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=66e0ec094722f11025c42458c26d4362"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create TCA Workspace with VCS">99bfd79147d1bd1025c42458c26d4382</action_type>
+        <action_type_parent display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:13</sys_created_on>
+        <sys_id>aae0ec094722f11025c42458c26d434d</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 23:18:55</sys_updated_on>
+        <ui_id>60d0d297-961b-4e4b-acd4-fc54cc60cbb6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aae0ec094722f11025c42458c26d434d"/>
+    <sys_element_mapping action="delete_multiple" query="id=aae0ec094722f11025c42458c26d434d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>oauth_token_id</field>
+        <id>aae0ec094722f11025c42458c26d434d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>a6e0ec094722f11025c42458c26d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_99bfd79147d1bd1025c42458c26d4382</table>
+        <value>{{8f463457-68f9-48f2-97c0-78395cdddd2e.oauth_token_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>organization_name</field>
+        <id>aae0ec094722f11025c42458c26d434d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>6ae0ec094722f11025c42458c26d434f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:44:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_99bfd79147d1bd1025c42458c26d4382</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>vcs_repo</field>
+        <id>aae0ec094722f11025c42458c26d434d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>2ee0ec094722f11025c42458c26d434f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_99bfd79147d1bd1025c42458c26d4382</table>
+        <value>{{flow_variable.vcs_repo}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aae0ec094722f11025c42458c26d434d^sys_idNOT INaae0ec094722f11025c42458c26d434e,e978c50547a6f11025c42458c26d43ec"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>token</input_name>
+        <instance>aae0ec094722f11025c42458c26d434d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"token":{"scriptActive":true,"script":"var Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027api_key_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003dTerraform Cloud Team Token^type\u003dapi_key\");\nwhile (cred.next()) {\n  var api_key \u003d \"Bearer \"+Encrypter.decrypt(cred.getValue(\u0027api_key\u0027));\n}\nreturn api_key;\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:13</sys_created_on>
+        <sys_id>aae0ec094722f11025c42458c26d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:13</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>organization_name</input_name>
+        <instance>aae0ec094722f11025c42458c26d434d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"organization_name":{"scriptActive":true,"script":"var shortDesc \u003d fd_data.trigger.current.short_description;\nreturn shortDesc.toLowerCase();\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:44:01</sys_created_on>
+        <sys_id>e978c50547a6f11025c42458c26d43ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:44:01</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aae0ec094722f11025c42458c26d434d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get TCA Org OAuth Token ID">df899c4e47ddb15025c42458c26d4311</action_type>
+        <action_type_parent display_value="GetTCAOrgOAuthToken ID">8538588a47ddb15025c42458c26d43c2</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:13</sys_created_on>
+        <sys_id>aee0ec094722f11025c42458c26d433d</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 23:18:55</sys_updated_on>
+        <ui_id>8f463457-68f9-48f2-97c0-78395cdddd2e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aee0ec094722f11025c42458c26d433d"/>
+    <sys_element_mapping action="delete_multiple" query="id=aee0ec094722f11025c42458c26d433d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>oauth_client_id</field>
+        <id>aee0ec094722f11025c42458c26d433d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:13</sys_created_on>
+        <sys_id>a6e0ec094722f11025c42458c26d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_df899c4e47ddb15025c42458c26d4311</table>
+        <value>{{6b7821eb-0069-41ee-a367-71e248a8aa18.oauth_client_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aee0ec094722f11025c42458c26d433d^sys_idNOT IN2ee0ec094722f11025c42458c26d433e"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>token</input_name>
+        <instance>aee0ec094722f11025c42458c26d433d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"token":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027api_key_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003dTerraform Cloud Team Token^type\u003dapi_key\");\nwhile (cred.next()) {\n  var api_key \u003d \"Bearer \"+Encrypter.decrypt(cred.getValue(\u0027api_key\u0027));\n}\nreturn api_key;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:13</sys_created_on>
+        <sys_id>2ee0ec094722f11025c42458c26d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:13</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aee0ec094722f11025c42458c26d433d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get TCA Org OAuth Client ID">1e74584247ddb15025c42458c26d43d6</action_type>
+        <action_type_parent display_value="GetTCAOrgOAuthClient ID">3e2fc046479db15025c42458c26d43a7</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:13</sys_created_on>
+        <sys_id>dae0ac094722f11025c42458c26d43e3</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 23:18:55</sys_updated_on>
+        <ui_id>6b7821eb-0069-41ee-a367-71e248a8aa18</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dae0ac094722f11025c42458c26d43e3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_1e74584247ddb15025c42458c26d43d6^id=dae0ac094722f11025c42458c26d43e3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dae0ac094722f11025c42458c26d43e3^sys_idNOT IN12e0ac094722f11025c42458c26d43f1,96b8e4894762f11025c42458c26d4324"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>token</input_name>
+        <instance>dae0ac094722f11025c42458c26d43e3</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"token":{"scriptActive":true,"script":"var Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027api_key_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003dTerraform Cloud Team Token^type\u003dapi_key\");\nwhile (cred.next()) {\n  var api_key \u003d \"Bearer \"+Encrypter.decrypt(cred.getValue(\u0027api_key\u0027));\n}\nreturn api_key;\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:13</sys_created_on>
+        <sys_id>12e0ac094722f11025c42458c26d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:13</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>organization_name</input_name>
+        <instance>dae0ac094722f11025c42458c26d43e3</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"organization_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n// var company \u003d fd_data.trigger.current.company;\nvar shortDesc \u003d fd_data.trigger.current.short_description;\nreturn shortDesc.toLowerCase();"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:21</sys_created_on>
+        <sys_id>96b8e4894762f11025c42458c26d4324</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:20:26</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dae0ac094722f11025c42458c26d43e3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="ExecuteTFCWorkspaceRun">d059ebd54715bd1025c42458c26d438c</action_type>
+        <action_type_parent display_value="ExecuteTCAWorkspaceRun">2541239547d1bd1025c42458c26d431e</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>e2e0ec094722f11025c42458c26d436f</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 23:18:55</sys_updated_on>
+        <ui_id>bd3c4c12-c04d-49c7-b654-a01bc797c091</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e2e0ec094722f11025c42458c26d436f"/>
+    <sys_element_mapping action="delete_multiple" query="id=e2e0ec094722f11025c42458c26d436f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>workspace_id</field>
+        <id>e2e0ec094722f11025c42458c26d436f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>eae0ec094722f11025c42458c26d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d059ebd54715bd1025c42458c26d438c</table>
+        <value>{{60d0d297-961b-4e4b-acd4-fc54cc60cbb6.workspace_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e2e0ec094722f11025c42458c26d436f^sys_idNOT IN62e0ec094722f11025c42458c26d4370"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>token</input_name>
+        <instance>e2e0ec094722f11025c42458c26d436f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"token":{"scriptActive":true,"script":"var Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027api_key_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003dTerraform Cloud Team Token^type\u003dapi_key\");\nwhile (cred.next()) {\n  var api_key \u003d \"Bearer \"+Encrypter.decrypt(cred.getValue(\u0027api_key\u0027));\n}\nreturn api_key;\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:14</sys_created_on>
+        <sys_id>62e0ec094722f11025c42458c26d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:14</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e2e0ec094722f11025c42458c26d436f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c2e0ac094722f11025c42458c26d4383"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=c2e0ac094722f11025c42458c26d4383^sys_idNOT INeaea898947a6f11025c42458c26d43b2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">eeea898947a6f11025c42458c26d43b1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</flow>
+        <flow_variable/>
+        <flow_variables_assigned>vcs_repo</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:54:44</sys_created_on>
+        <sys_id>eaea898947a6f11025c42458c26d43b2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:21</sys_updated_on>
+        <ui_id>2a6f2ad8-e706-49f2-8735-b9229a546f73</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eaea898947a6f11025c42458c26d43b2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>eaea898947a6f11025c42458c26d43b2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:54:44</sys_created_on>
+        <sys_id>a6ea898947a6f11025c42458c26d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:54:44</sys_updated_on>
+        <value>gruntlab/terraform-aws-vpc</value>
+        <variable display_value="VCS Repo">1ae0ac094722f11025c42458c26d4390</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_c2e0ac094722f11025c42458c26d4383^id=eaea898947a6f11025c42458c26d43b2"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=eaea898947a6f11025c42458c26d43b2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eaea898947a6f11025c42458c26d43b2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c2e0ac094722f11025c42458c26d4383"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c2e0ac094722f11025c42458c26d4383^sys_idNOT IN1ae0ac094722f11025c42458c26d4390"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=028da33f-a3cc-4abc-8491-f7928de70c9d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>vcs_repo</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>VCS Repo</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</model>
+        <model_id>c2e0ac094722f11025c42458c26d4383</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_c2e0ac094722f11025c42458c26d4383</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:12</sys_created_on>
+        <sys_id>1ae0ac094722f11025c42458c26d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c2e0ac094722f11025c42458c26d4383^sys_idNOT IN46b16c894722f11025c42458c26d4306,56e0ac094722f11025c42458c26d43b6,f5b12c894722f11025c42458c26d43f6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c2e0ac094722f11025c42458c26d4383</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:54:44</sys_created_on>
+        <sys_id>46b16c894722f11025c42458c26d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:54:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c2e0ac094722f11025c42458c26d4383</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:51:13</sys_created_on>
+        <sys_id>56e0ac094722f11025c42458c26d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:51:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c2e0ac094722f11025c42458c26d4383</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:54:44</sys_created_on>
+        <sys_id>f5b12c894722f11025c42458c26d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 19:54:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c2e0ac094722f11025c42458c26d4383"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c2e0ac094722f11025c42458c26d4383"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c2e0ac094722f11025c42458c26d4383"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=260663000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>41fd5b9d4791bd1025c42458c26d4340</copied_from>
+        <copied_from_name/>
+        <description>Provision AWS Resources via TCA with VCS</description>
+        <internal_name>provision_aws_customer_vpc</internal_name>
+        <label_cache>[{"name":"4f61de59-1122-493b-9d23-51cee6de537c.organization","label":"2 - Get Catalog Variables➛organization","reference":"","reference_display":"organization","type":"choice","base_type":"choice","choices":[{"label":"Gruntlab","value":"gruntlab","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"4f61de59-1122-493b-9d23-51cee6de537c.vcs_repo","label":"2 - Get Catalog Variables➛vcs_repo","reference":"","reference_display":"vcs_repo","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"8f463457-68f9-48f2-97c0-78395cdddd2e.oauth_token_id","label":"3 - Get TCA Org OAuth Token ID➛OAuth-Token-Id","reference_display":"OAuth-Token-Id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1e36a6f8-f3dc-4a46-aa43-3275960f82ec"}},{"name":"6b7821eb-0069-41ee-a367-71e248a8aa18.oauth_client_id","label":"2 - Get TCA Org OAuth Client ID➛OAuth-Client-Id","reference_display":"OAuth-Client-Id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"e94c874e-5868-49d7-9aba-396dc64ce18b"}},{"name":"a9eb8c62-58d1-4b3f-818c-4b9e8539bdfb.organization","label":"2 - Get Catalog Variables➛organization","reference":"","reference_display":"organization","type":"choice","base_type":"choice","choices":[{"label":"Gruntlab","value":"gruntlab","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.cat_item","label":"Trigger - Service Catalog➛Requested Item Record➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item"},{"name":"Service Catalog_1.request_item.cat_item.sys_name","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sc_cat_item","column_name":"sys_name"},{"name":"a9eb8c62-58d1-4b3f-818c-4b9e8539bdfb.vcs_repo","label":"2 - Get Catalog Variables➛vcs_repo","reference":"","reference_display":"vcs_repo","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"60d0d297-961b-4e4b-acd4-fc54cc60cbb6.workspace_id","label":"4 - Create TCA Workspace with VCS➛Workspace-Id","reference_display":"Workspace-Id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"81fac36a-dc22-4209-955f-7fccbc83e002"}},{"name":"flow_variable.organization_name","label":"Flow Variables➛Organization Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"8101bf87-f237-4920-9ed2-ed132fe09e0d"}},{"name":"flow_variable.vcs_repo","label":"Flow Variables➛VCS Repo","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"028da33f-a3cc-4abc-8491-f7928de70c9d"}},{"name":"Updated_1.current.company","label":"Trigger - Record Updated➛Customer Lifecycles Record➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"x_snc_aws_sns_customer_lifecycles","column_name":"company"}]</label_cache>
+        <master>true</master>
+        <name>Provision AWS Customer VPC</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Provision AWS Customer VPC">c2e0ac094722f11025c42458c26d4383</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>89d82c894762f11025c42458c26d43aa</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:16</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=89d82c894762f11025c42458c26d43aa"/>
+    <sys_variable_value action="delete_multiple" query="document_key=89d82c894762f11025c42458c26d43aa"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=89d82c894762f11025c42458c26d43aa^sys_idNOT INddd86c894762f11025c42458c26d4366"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:50</sys_created_on>
+        <sys_id>ddd86c894762f11025c42458c26d4366</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:20</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ddd86c894762f11025c42458c26d4366"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ddd86c894762f11025c42458c26d4366</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:50</sys_created_on>
+        <sys_id>51d86c894762f11025c42458c26d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:50</sys_updated_on>
+        <value>x_snc_aws_sns_customer_lifecycles</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ddd86c894762f11025c42458c26d4366</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:50</sys_created_on>
+        <sys_id>59d86c894762f11025c42458c26d4368</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:01:58</sys_updated_on>
+        <value>approval=approved^NQstate=3</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=ddd86c894762f11025c42458c26d4366"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=89d82c894762f11025c42458c26d43aa"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=89d82c894762f11025c42458c26d43aa^sys_idNOT IN0dd82c894762f11025c42458c26d43ab"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>89d82c894762f11025c42458c26d43aa</id>
+        <name>Provision AWS Customer VPC</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:48</sys_created_on>
+        <sys_id>0dd82c894762f11025c42458c26d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0dd82c894762f11025c42458c26d43ab"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=89d82c894762f11025c42458c26d43aa^sys_idNOT IN85d82c894762f11025c42458c26d43e3,8dd82c894762f11025c42458c26d43f7,cdd82c894762f11025c42458c26d43ac"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</model>
+        <model_id>89d82c894762f11025c42458c26d43aa</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_89d82c894762f11025c42458c26d43aa</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:48</sys_created_on>
+        <sys_id>85d82c894762f11025c42458c26d43e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:37:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=85d82c894762f11025c42458c26d43e3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</model>
+        <model_id>89d82c894762f11025c42458c26d43aa</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_89d82c894762f11025c42458c26d43aa</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:48</sys_created_on>
+        <sys_id>8dd82c894762f11025c42458c26d43f7</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8dd82c894762f11025c42458c26d43f7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</model>
+        <model_id>89d82c894762f11025c42458c26d43aa</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_89d82c894762f11025c42458c26d43aa</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:48</sys_created_on>
+        <sys_id>cdd82c894762f11025c42458c26d43ac</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cdd82c894762f11025c42458c26d43ac"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=89d82c894762f11025c42458c26d43aa"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=89d82c894762f11025c42458c26d43aa"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=89d82c894762f11025c42458c26d43aa^sys_idNOT IN11d86c894762f11025c42458c26d4357,19d86c894762f11025c42458c26d4340,91d86c894762f11025c42458c26d4365,d1d86c894762f11025c42458c26d431d,d5d86c894762f11025c42458c26d432e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</action_type>
+        <action_type_parent display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>11d86c894762f11025c42458c26d4357</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:16</sys_updated_on>
+        <ui_id>aad0beb9-a152-4f97-8293-d28a454a52cc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=11d86c894762f11025c42458c26d4357"/>
+    <sys_element_mapping action="delete_multiple" query="id=11d86c894762f11025c42458c26d4357"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>workspace_id</field>
+        <id>11d86c894762f11025c42458c26d4357</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>91d86c894762f11025c42458c26d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e87791394755715025c42458c26d4324</table>
+        <value>{{60d0d297-961b-4e4b-acd4-fc54cc60cbb6.workspace_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=11d86c894762f11025c42458c26d4357^sys_idNOT IN11d86c894762f11025c42458c26d4358,95d86c894762f11025c42458c26d4358,99d86c894762f11025c42458c26d4358"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>token</input_name>
+        <instance>11d86c894762f11025c42458c26d4357</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"token":{"scriptActive":true,"script":"var Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027api_key_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003dTerraform Cloud Team Token^type\u003dapi_key\");\nwhile (cred.next()) {\n  var api_key \u003d \"Bearer \"+Encrypter.decrypt(cred.getValue(\u0027api_key\u0027));\n}\nreturn api_key;\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>11d86c894762f11025c42458c26d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>aws_access_key</input_name>
+        <instance>11d86c894762f11025c42458c26d4357</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"aws_access_key":{"scriptActive":true,"script":"\nvar Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027aws_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003ddefault^type\u003daws\");\nwhile (cred.next()) {\nvar access_key \u003d cred.getValue(\u0027access_key\u0027);\n// var secret_key \u003d Encrypter.decrypt(cred.getValue(\u0027secret_key\u0027));\n}\nreturn access_key;\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>95d86c894762f11025c42458c26d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>aws_secret_key</input_name>
+        <instance>11d86c894762f11025c42458c26d4357</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"aws_secret_key":{"scriptActive":true,"script":"var Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027aws_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003ddefault^type\u003daws\");\nwhile (cred.next()) {\n// var access_key \u003d cred.getValue(\u0027access_key\u0027);\nvar secret_key \u003d Encrypter.decrypt(cred.getValue(\u0027secret_key\u0027));\n}\nreturn secret_key;\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>99d86c894762f11025c42458c26d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=11d86c894762f11025c42458c26d4357"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create TCA Workspace with VCS">99bfd79147d1bd1025c42458c26d4382</action_type>
+        <action_type_parent display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>19d86c894762f11025c42458c26d4340</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:16</sys_updated_on>
+        <ui_id>60d0d297-961b-4e4b-acd4-fc54cc60cbb6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=19d86c894762f11025c42458c26d4340"/>
+    <sys_element_mapping action="delete_multiple" query="id=19d86c894762f11025c42458c26d4340"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>oauth_token_id</field>
+        <id>19d86c894762f11025c42458c26d4340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>15d86c894762f11025c42458c26d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_99bfd79147d1bd1025c42458c26d4382</table>
+        <value>{{8f463457-68f9-48f2-97c0-78395cdddd2e.oauth_token_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>organization_name</field>
+        <id>19d86c894762f11025c42458c26d4340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>d5d86c894762f11025c42458c26d4342</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:45:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_99bfd79147d1bd1025c42458c26d4382</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>vcs_repo</field>
+        <id>19d86c894762f11025c42458c26d4340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>99d86c894762f11025c42458c26d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_99bfd79147d1bd1025c42458c26d4382</table>
+        <value>{{flow_variable.vcs_repo}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=19d86c894762f11025c42458c26d4340^sys_idNOT IN19d86c894762f11025c42458c26d4341,9ee80d4547a6f11025c42458c26d43ae"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>token</input_name>
+        <instance>19d86c894762f11025c42458c26d4340</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"token":{"scriptActive":true,"script":"var Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027api_key_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003dTerraform Cloud Team Token^type\u003dapi_key\");\nwhile (cred.next()) {\n  var api_key \u003d \"Bearer \"+Encrypter.decrypt(cred.getValue(\u0027api_key\u0027));\n}\nreturn api_key;\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>19d86c894762f11025c42458c26d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>organization_name</input_name>
+        <instance>19d86c894762f11025c42458c26d4340</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"organization_name":{"scriptActive":true,"script":"var shortDesc \u003d fd_data.trigger.current.short_description;\nreturn shortDesc.toLowerCase();\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:45:58</sys_created_on>
+        <sys_id>9ee80d4547a6f11025c42458c26d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:45:58</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=19d86c894762f11025c42458c26d4340"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="ExecuteTFCWorkspaceRun">d059ebd54715bd1025c42458c26d438c</action_type>
+        <action_type_parent display_value="ExecuteTCAWorkspaceRun">2541239547d1bd1025c42458c26d431e</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:50</sys_created_on>
+        <sys_id>91d86c894762f11025c42458c26d4365</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:16</sys_updated_on>
+        <ui_id>bd3c4c12-c04d-49c7-b654-a01bc797c091</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=91d86c894762f11025c42458c26d4365"/>
+    <sys_element_mapping action="delete_multiple" query="id=91d86c894762f11025c42458c26d4365"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>workspace_id</field>
+        <id>91d86c894762f11025c42458c26d4365</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:50</sys_created_on>
+        <sys_id>99d86c894762f11025c42458c26d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d059ebd54715bd1025c42458c26d438c</table>
+        <value>{{60d0d297-961b-4e4b-acd4-fc54cc60cbb6.workspace_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=91d86c894762f11025c42458c26d4365^sys_idNOT IN11d86c894762f11025c42458c26d4366"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>token</input_name>
+        <instance>91d86c894762f11025c42458c26d4365</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"token":{"scriptActive":true,"script":"var Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027api_key_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003dTerraform Cloud Team Token^type\u003dapi_key\");\nwhile (cred.next()) {\n  var api_key \u003d \"Bearer \"+Encrypter.decrypt(cred.getValue(\u0027api_key\u0027));\n}\nreturn api_key;\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:50</sys_created_on>
+        <sys_id>11d86c894762f11025c42458c26d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:50</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=91d86c894762f11025c42458c26d4365"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get TCA Org OAuth Client ID">1e74584247ddb15025c42458c26d43d6</action_type>
+        <action_type_parent display_value="GetTCAOrgOAuthClient ID">3e2fc046479db15025c42458c26d43a7</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>d1d86c894762f11025c42458c26d431d</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:16</sys_updated_on>
+        <ui_id>6b7821eb-0069-41ee-a367-71e248a8aa18</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d1d86c894762f11025c42458c26d431d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_1e74584247ddb15025c42458c26d43d6^id=d1d86c894762f11025c42458c26d431d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d1d86c894762f11025c42458c26d431d^sys_idNOT IN95d86c894762f11025c42458c26d431e,d9d86c894762f11025c42458c26d431e"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>token</input_name>
+        <instance>d1d86c894762f11025c42458c26d431d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"token":{"scriptActive":true,"script":"var Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027api_key_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003dTerraform Cloud Team Token^type\u003dapi_key\");\nwhile (cred.next()) {\n  var api_key \u003d \"Bearer \"+Encrypter.decrypt(cred.getValue(\u0027api_key\u0027));\n}\nreturn api_key;\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>95d86c894762f11025c42458c26d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>organization_name</input_name>
+        <instance>d1d86c894762f11025c42458c26d431d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"organization_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n// var company \u003d fd_data.trigger.current.company;\nvar shortDesc \u003d fd_data.trigger.current.short_description;\nreturn shortDesc.toLowerCase();"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>d9d86c894762f11025c42458c26d431e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:20:38</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d1d86c894762f11025c42458c26d431d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get TCA Org OAuth Token ID">df899c4e47ddb15025c42458c26d4311</action_type>
+        <action_type_parent display_value="GetTCAOrgOAuthToken ID">8538588a47ddb15025c42458c26d43c2</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>d5d86c894762f11025c42458c26d432e</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:16</sys_updated_on>
+        <ui_id>8f463457-68f9-48f2-97c0-78395cdddd2e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d5d86c894762f11025c42458c26d432e"/>
+    <sys_element_mapping action="delete_multiple" query="id=d5d86c894762f11025c42458c26d432e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>oauth_client_id</field>
+        <id>d5d86c894762f11025c42458c26d432e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>ddd86c894762f11025c42458c26d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_df899c4e47ddb15025c42458c26d4311</table>
+        <value>{{6b7821eb-0069-41ee-a367-71e248a8aa18.oauth_client_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d5d86c894762f11025c42458c26d432e^sys_idNOT IN55d86c894762f11025c42458c26d432f"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>token</input_name>
+        <instance>d5d86c894762f11025c42458c26d432e</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"token":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar Encrypter \u003d new global.Encrypter();\nvar cred \u003d new GlideRecord(\u0027api_key_credentials\u0027);\ncred.addActiveQuery();\ncred.query(\"name\u003dTerraform Cloud Team Token^type\u003dapi_key\");\nwhile (cred.next()) {\n  var api_key \u003d \"Bearer \"+Encrypter.decrypt(cred.getValue(\u0027api_key\u0027));\n}\nreturn api_key;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:49</sys_created_on>
+        <sys_id>55d86c894762f11025c42458c26d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d5d86c894762f11025c42458c26d432e"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=89d82c894762f11025c42458c26d43aa"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=89d82c894762f11025c42458c26d43aa^sys_idNOT INd20bc1c947a6f11025c42458c26d4385"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">eeea898947a6f11025c42458c26d43b1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</flow>
+        <flow_variable/>
+        <flow_variables_assigned>vcs_repo</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:55:16</sys_created_on>
+        <sys_id>d20bc1c947a6f11025c42458c26d4385</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:16</sys_updated_on>
+        <ui_id>2a6f2ad8-e706-49f2-8735-b9229a546f73</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d20bc1c947a6f11025c42458c26d4385"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d20bc1c947a6f11025c42458c26d4385</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 22:55:16</sys_created_on>
+        <sys_id>1a0bc1c947a6f11025c42458c26d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:55:16</sys_updated_on>
+        <value>gruntlab/terraform-aws-vpc</value>
+        <variable display_value="VCS Repo">81d86c894762f11025c42458c26d4305</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_89d82c894762f11025c42458c26d43aa^id=d20bc1c947a6f11025c42458c26d4385"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d20bc1c947a6f11025c42458c26d4385"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d20bc1c947a6f11025c42458c26d4385"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=89d82c894762f11025c42458c26d43aa"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=89d82c894762f11025c42458c26d43aa^sys_idNOT IN81d86c894762f11025c42458c26d4305"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=028da33f-a3cc-4abc-8491-f7928de70c9d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>vcs_repo</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>VCS Repo</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provision AWS Customer VPC">89d82c894762f11025c42458c26d43aa</model>
+        <model_id>89d82c894762f11025c42458c26d43aa</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_89d82c894762f11025c42458c26d43aa</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:48</sys_created_on>
+        <sys_id>81d86c894762f11025c42458c26d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_89d82c894762f11025c42458c26d43aa^sys_idNOT IN05d82c894762f11025c42458c26d43fc,4dd82c894762f11025c42458c26d43df,8dd82c894762f11025c42458c26d43e7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_89d82c894762f11025c42458c26d43aa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:48</sys_created_on>
+        <sys_id>05d82c894762f11025c42458c26d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_89d82c894762f11025c42458c26d43aa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:48</sys_created_on>
+        <sys_id>4dd82c894762f11025c42458c26d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_89d82c894762f11025c42458c26d43aa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:48</sys_created_on>
+        <sys_id>8dd82c894762f11025c42458c26d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 20:25:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_89d82c894762f11025c42458c26d43aa"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_89d82c894762f11025c42458c26d43aa"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_89d82c894762f11025c42458c26d43aa"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>c2e0ac094722f11025c42458c26d4383</sys_id>
+        <latest_snapshot>89d82c894762f11025c42458c26d43aa</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c2e0ac094722f11025c42458c26d4383^sys_idNOT IN9ed8ec894762f11025c42458c26d435b"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9ed8ec894762f11025c42458c26d435b","name":"plan","plan_signature":null}}</plan>
+        <plan_id>c2e0ac094722f11025c42458c26d4383</plan_id>
+        <snapshot>7470d9c547e6f11025c42458c26d439e</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 20:25:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ed8ec894762f11025c42458c26d435b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 22:40:42</sys_updated_on>
+        <trigger display_value="">e6de744d4726f11025c42458c26d43c0</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c2e0ac094722f11025c42458c26d4383"/>
+</record_update>

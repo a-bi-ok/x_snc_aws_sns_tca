@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="AWS Instance Request">7f25f74f47957d5025c42458c26d43c0</sc_cat_item>
+        <sc_category display_value="Compute">267b6615471d7d1025c42458c26d43fc</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-20 13:08:01</sys_created_on>
+        <sys_id>3325f74f47957d5025c42458c26d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compute.AWS Instance Request</sys_name>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name>sc_cat_item_category_3325f74f47957d5025c42458c26d43cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-20 13:08:01</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</application>
+        <file_path/>
+        <instance_id>7196912adba32490d5c911f84896197c</instance_id>
+        <instance_name>dev112375</instance_name>
+        <name>sc_cat_item_category_3325f74f47957d5025c42458c26d43cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="AWS Instance Request">7f25f74f47957d5025c42458c26d43c0</sc_cat_item><sc_category display_value="Compute">267b6615471d7d1025c42458c26d43fc</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-20 13:08:01</sys_created_on><sys_id>3325f74f47957d5025c42458c26d43cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Compute.AWS Instance Request</sys_name><sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package><sys_policy/><sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope><sys_update_name>sc_cat_item_category_3325f74f47957d5025c42458c26d43cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-20 13:08:01</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>967837926</payload_hash>
+        <record_name>Compute.AWS Instance Request</record_name>
+        <reverted_from/>
+        <source>089656d547597d1025c42458c26d4385</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-20 13:08:01</sys_created_on>
+        <sys_id>fb25f74f47957d5025c42458c26d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ab2b466670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-20 13:08:01</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>3325f74fe6957d50605b1557f800eecf</update_guid>
+        <update_guid_history>3325f74fe6957d50605b1557f800eecf:967837926</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Compute.AWS Instance Request">2a367fcf47957d5025c42458c26d435d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-20 13:12:34</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0bfe51ac0fc2417c923b259c68e3aa64</sys_id>
+        <sys_metadata>3325f74f47957d5025c42458c26d43cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compute.AWS Instance Request</sys_name>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_scope_delete display_value="">378c22e3814c44ecbc024f54246ab810</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_3325f74f47957d5025c42458c26d43cc</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_3325f74f47957d5025c42458c26d43cc">fb25f74f47957d5025c42458c26d43cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-20 13:12:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

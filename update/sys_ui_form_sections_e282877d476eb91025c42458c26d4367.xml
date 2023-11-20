@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e282877d476eb91025c42458c26d4367" sys_domain="global" table="x_snc_aws_sns_customer_lifecycles" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-17 15:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea82877d476eb91025c42458c26d4368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_aws_sns_customer_lifecycles" name="x_snc_aws_sns_customer_lifecycles" sys_domain="global" view="Default view">e282877d476eb91025c42458c26d4367</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aws_sns_customer_lifecycles" sys_domain="global" view="Default view">1e77ebb4472ab11025c42458c26d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-17 15:32:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-17 15:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6682877d476eb91025c42458c26d436b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_aws_sns_customer_lifecycles" name="x_snc_aws_sns_customer_lifecycles" sys_domain="global" view="Default view">e282877d476eb91025c42458c26d4367</sys_ui_form>
+            <sys_ui_section caption="workspace" display_value="workspace" name="x_snc_aws_sns_customer_lifecycles" sys_domain="global" view="Default view">e682877d476eb91025c42458c26d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-17 15:32:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_aws_sns_customer_lifecycles</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-17 15:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e282877d476eb91025c42458c26d4367</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_aws_sns_customer_lifecycles</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e282877d476eb91025c42458c26d4367</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-17 15:32:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

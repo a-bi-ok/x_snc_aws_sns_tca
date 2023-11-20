@@ -11,31 +11,31 @@
         <copied_from>a0cabed84759751025c42458c26d43ae</copied_from>
         <copied_from_name>CREATE Terraform API Workspace</copied_from_name>
         <description/>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>create_tca_workspace</internal_name>
         <label_cache>[{"name":"{{action.workspace_id}}","label":"action➛WORKSPACE-ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"3c77f9ea-965e-4eb5-9b26-11c3e9191320"}},{"name":"{{action.token}}","label":"action➛TOKEN","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"bfd33460-8143-46ea-8e75-10e6e471897c"}},{"name":"{{action.x_github_api_version}}","label":"action➛X-GitHub-API-Version","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"85396e2f-c4a0-4a3b-a4dd-e7352a15768b"}},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.accept}}","label":"action➛Accept","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.organization_name}}","label":"action➛Organization-Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"09a66489-027c-4d99-b9d2-3cf908e7a822"}},{"name":"{{action.oauth_token_id}}","label":"action➛OAuth-Token_Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e003c368-4de1-4088-af00-127cd841b7e7"}},{"name":"{{action.auth0_token}}","label":"action➛Auth0-Token","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.vcs_repo}}","label":"action➛VCS-Repo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"396422cd-8dee-493e-8615-b8bbba62654d"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c35dfc65-3690-4a8d-9b1d-180e4502811d].workspace_id}}","label":"step➛Script step➛Workspace-Id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"07f026e3-ec08-46c0-a475-14208af64e29"}}]</label_cache>
         <master_snapshot>99bfd79147d1bd1025c42458c26d4382</master_snapshot>
-        <name>Create TCA Workspace with VCS</name>
+        <name>CreateTCAWorkspacewithVCS</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-14 20:23:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2d3f1a5947997d1025c42458c26d43bb</sys_id>
-        <sys_mod_count>49</sys_mod_count>
-        <sys_name>Create TCA Workspace with VCS</sys_name>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>CreateTCAWorkspacewithVCS</sys_name>
         <sys_overrides/>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_2d3f1a5947997d1025c42458c26d43bb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 18:56:09</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:57:24</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -146,7 +146,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=2d3f1a5947997d1025c42458c26d43bb^sys_idNOT IN793f1a5947997d1025c42458c26d43da,8c9bb75147d5bd1025c42458c26d43d5"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</action>
+        <action display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</action>
         <cid>a60948b5-a971-4c35-9800-1a11c43976dc</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -460,7 +460,7 @@
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_793f1a5947997d1025c42458c26d43da"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</action>
+        <action display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</action>
         <cid>c35dfc65-3690-4a8d-9b1d-180e4502811d</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -791,7 +791,7 @@
         <label>TOKEN</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</model>
+        <model display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</model>
         <model_id>2d3f1a5947997d1025c42458c26d43bb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_2d3f1a5947997d1025c42458c26d43bb</name>
@@ -875,7 +875,7 @@
         <label>Organization-Name</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</model>
+        <model display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</model>
         <model_id>2d3f1a5947997d1025c42458c26d43bb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_2d3f1a5947997d1025c42458c26d43bb</name>
@@ -959,7 +959,7 @@
         <label>VCS-Repo</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</model>
+        <model display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</model>
         <model_id>2d3f1a5947997d1025c42458c26d43bb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_2d3f1a5947997d1025c42458c26d43bb</name>
@@ -1043,7 +1043,7 @@
         <label>Content-Type</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</model>
+        <model display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</model>
         <model_id>2d3f1a5947997d1025c42458c26d43bb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_2d3f1a5947997d1025c42458c26d43bb</name>
@@ -1066,14 +1066,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-14 20:23:02</sys_created_on>
         <sys_id>e93f1a5947997d1025c42458c26d43cd</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 18:56:06</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:57:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1127,7 +1127,7 @@
         <label>OAuth-Token_Id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</model>
+        <model display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</model>
         <model_id>2d3f1a5947997d1025c42458c26d43bb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_2d3f1a5947997d1025c42458c26d43bb</name>
@@ -1214,7 +1214,7 @@
         <label>Workspace-Id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</model>
+        <model display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</model>
         <model_id>2d3f1a5947997d1025c42458c26d43bb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_2d3f1a5947997d1025c42458c26d43bb</name>
@@ -1301,7 +1301,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</model>
+        <model display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</model>
         <model_id>2d3f1a5947997d1025c42458c26d43bb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_2d3f1a5947997d1025c42458c26d43bb</name>
@@ -1388,7 +1388,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</model>
+        <model display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</model>
         <model_id>2d3f1a5947997d1025c42458c26d43bb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_2d3f1a5947997d1025c42458c26d43bb</name>
@@ -1411,14 +1411,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-14 20:23:03</sys_created_on>
         <sys_id>793f5a5947997d1025c42458c26d4301</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 18:56:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:57:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1475,7 +1475,7 @@
         <label>Status Code</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
-        <model display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</model>
+        <model display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</model>
         <model_id>2d3f1a5947997d1025c42458c26d43bb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_2d3f1a5947997d1025c42458c26d43bb</name>
@@ -1498,14 +1498,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-14 20:23:03</sys_created_on>
         <sys_id>7d3f1a5947997d1025c42458c26d43f4</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 18:56:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:57:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1562,7 +1562,7 @@
         <label>Response Body</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</model>
+        <model display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</model>
         <model_id>2d3f1a5947997d1025c42458c26d43bb</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_2d3f1a5947997d1025c42458c26d43bb</name>
@@ -1585,14 +1585,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-14 20:23:03</sys_created_on>
         <sys_id>f93f1a5947997d1025c42458c26d43fd</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 18:56:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:57:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1610,7 +1610,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=2d3f1a5947997d1025c42458c26d43bb"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2d3f1a5947997d1025c42458c26d43bb^sys_idNOT IN753f5a5947997d1025c42458c26d4338"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</action_type_id>
+        <action_type_id display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</action_type_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-14 20:23:03</sys_created_on>
         <sys_id>753f5a5947997d1025c42458c26d4338</sys_id>
@@ -1855,7 +1855,7 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2d3f1a5947997d1025c42458c26d43bb"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=2d3f1a5947997d1025c42458c26d43bb^sys_idNOT INbdbf1b9147d1bd1025c42458c26d43c2"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</action_id>
+        <action_id display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"bdbf1b9147d1bd1025c42458c26d43c2","name":"plan","plan_signature":null}}</plan>
         <snapshot>e08edc0a4711f15025c42458c26d43cb</snapshot>
         <sys_created_by>admin</sys_created_by>
@@ -1887,7 +1887,7 @@
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Create TCA Workspace with VCS">2d3f1a5947997d1025c42458c26d43bb</parent_action>
+        <parent_action display_value="CreateTCAWorkspacewithVCS">2d3f1a5947997d1025c42458c26d43bb</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-15 01:04:49</sys_created_on>

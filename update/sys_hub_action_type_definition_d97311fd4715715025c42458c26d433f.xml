@@ -11,31 +11,31 @@
         <copied_from>2d3f1a5947997d1025c42458c26d43bb</copied_from>
         <copied_from_name>Create TCA Workspace with VCS</copied_from_name>
         <description/>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>create_tca_workspace_variables</internal_name>
         <label_cache>[{"name":"{{action.workspace_id}}","label":"action➛Workspace-Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.token}}","label":"action➛TOKEN","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"bfd33460-8143-46ea-8e75-10e6e471897c"}},{"name":"{{action.x_github_api_version}}","label":"action➛X-GitHub-API-Version","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"85396e2f-c4a0-4a3b-a4dd-e7352a15768b"}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.accept}}","label":"action➛Accept","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.organization_name}}","label":"action➛Organization-Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.oauth_token_id}}","label":"action➛OAuth-Token_Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e003c368-4de1-4088-af00-127cd841b7e7"}},{"name":"{{action.auth0_token}}","label":"action➛Auth0-Token","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.vcs_repo}}","label":"action➛VCS-Repo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"396422cd-8dee-493e-8615-b8bbba62654d"}},{"name":"{{action.aws_access_key}}","label":"action➛AWS-Access-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"69be616e-a102-45b1-ad4d-e342e2084a31"}},{"name":"{{action.aws_secret_key}}","label":"action➛AWS-Secret-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c048ba49-6306-477c-86af-490a09717f33"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}","label":"step➛REST - Add Access Key➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].status_code}}","label":"step➛REST - Add Access Key➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].response_body}}","label":"step➛REST - Add Secret Key ➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].status_code}}","label":"step➛REST - Add Secret Key ➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
         <master_snapshot>e87791394755715025c42458c26d4324</master_snapshot>
-        <name>Create TCA Workspace Variables</name>
+        <name>CreateTCAWorkspaceVariables</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d97311fd4715715025c42458c26d433f</sys_id>
-        <sys_mod_count>117</sys_mod_count>
-        <sys_name>Create TCA Workspace Variables</sys_name>
+        <sys_mod_count>124</sys_mod_count>
+        <sys_name>CreateTCAWorkspaceVariables</sys_name>
         <sys_overrides/>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d97311fd4715715025c42458c26d433f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:56:28</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -180,7 +180,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=d97311fd4715715025c42458c26d433f^sys_idNOT IN9f18d9794755715025c42458c26d4367,ed7311fd4715715025c42458c26d4397"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</action>
+        <action display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</action>
         <cid>5ac2f769-e916-4c06-b1d3-943ff8b649e6</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -560,7 +560,7 @@
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9f18d9794755715025c42458c26d4367"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</action>
+        <action display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</action>
         <cid>a60948b5-a971-4c35-9800-1a11c43976dc</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1006,7 +1006,7 @@
         <label>AWS-Access-Key</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d97311fd4715715025c42458c26d433f</name>
@@ -1090,7 +1090,7 @@
         <label>Workspace-Id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d97311fd4715715025c42458c26d433f</name>
@@ -1174,7 +1174,7 @@
         <label>AWS-Secret-Key</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d97311fd4715715025c42458c26d433f</name>
@@ -1258,7 +1258,7 @@
         <label>Content-Type</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d97311fd4715715025c42458c26d433f</name>
@@ -1281,14 +1281,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:02</sys_created_on>
         <sys_id>d57311fd4715715025c42458c26d4359</sys_id>
-        <sys_mod_count>123</sys_mod_count>
+        <sys_mod_count>129</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:43</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:56:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1342,7 +1342,7 @@
         <label>TOKEN</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d97311fd4715715025c42458c26d433f</name>
@@ -1429,7 +1429,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
@@ -1452,14 +1452,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:02</sys_created_on>
         <sys_id>617311fd4715715025c42458c26d43eb</sys_id>
-        <sys_mod_count>123</sys_mod_count>
+        <sys_mod_count>129</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:44</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:56:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1516,7 +1516,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
@@ -1603,7 +1603,7 @@
         <label>Secret Key Status Code</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
@@ -1626,14 +1626,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 01:49:19</sys_created_on>
         <sys_id>701d7546475df15025c42458c26d43ae</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:44</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:56:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1690,7 +1690,7 @@
         <label>Access Key Response</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
@@ -1713,14 +1713,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 01:49:19</sys_created_on>
         <sys_id>b01d7546475df15025c42458c26d43a7</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:44</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:56:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1777,7 +1777,7 @@
         <label>Secret Key Response</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
@@ -1800,14 +1800,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 01:49:19</sys_created_on>
         <sys_id>bc1d7546475df15025c42458c26d43b1</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:44</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:56:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1864,7 +1864,7 @@
         <label>Access Key Status Code</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</model>
+        <model display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</model>
         <model_id>d97311fd4715715025c42458c26d433f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f</name>
@@ -1887,14 +1887,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 01:49:19</sys_created_on>
         <sys_id>fc1d7546475df15025c42458c26d43a1</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:44</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:56:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1912,7 +1912,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=d97311fd4715715025c42458c26d433f"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=d97311fd4715715025c42458c26d433f^sys_idNOT INbd7351fd4715715025c42458c26d4319"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</action_type_id>
+        <action_type_id display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</action_type_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:09:03</sys_created_on>
         <sys_id>bd7351fd4715715025c42458c26d4319</sys_id>
@@ -2180,19 +2180,19 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_d97311fd4715715025c42458c26d433f"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=d97311fd4715715025c42458c26d433f^sys_idNOT IN4977d1394755715025c42458c26d4361"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</action_id>
+        <action_id display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"4977d1394755715025c42458c26d4361","name":"plan","plan_signature":null}}</plan>
-        <snapshot>fd20064e475df15025c42458c26d438e</snapshot>
+        <snapshot>6f0ff7c347197d5025c42458c26d4357</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4977d1394755715025c42458c26d4361</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:48</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:51:11</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2208,18 +2208,18 @@
         <internal_name>create_tca_workspace_variables</internal_name>
         <label_cache>[{"name":"{{action.workspace_id}}","label":"action➛Workspace-Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.token}}","label":"action➛TOKEN","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"bfd33460-8143-46ea-8e75-10e6e471897c"}},{"name":"{{action.x_github_api_version}}","label":"action➛X-GitHub-API-Version","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"85396e2f-c4a0-4a3b-a4dd-e7352a15768b"}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.accept}}","label":"action➛Accept","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.organization_name}}","label":"action➛Organization-Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.oauth_token_id}}","label":"action➛OAuth-Token_Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e003c368-4de1-4088-af00-127cd841b7e7"}},{"name":"{{action.auth0_token}}","label":"action➛Auth0-Token","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.vcs_repo}}","label":"action➛VCS-Repo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"396422cd-8dee-493e-8615-b8bbba62654d"}},{"name":"{{action.aws_access_key}}","label":"action➛AWS-Access-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"69be616e-a102-45b1-ad4d-e342e2084a31"}},{"name":"{{action.aws_secret_key}}","label":"action➛AWS-Secret-Key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c048ba49-6306-477c-86af-490a09717f33"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].response_body}}","label":"step➛REST - Add Access Key➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a60948b5-a971-4c35-9800-1a11c43976dc].status_code}}","label":"step➛REST - Add Access Key➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].response_body}}","label":"step➛REST - Add Secret Key ➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ac2f769-e916-4c06-b1d3-943ff8b649e6].status_code}}","label":"step➛REST - Add Secret Key ➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
         <master>true</master>
-        <name>Create TCA Workspace Variables</name>
+        <name>CreateTFCWorkspaceVariables</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Create TCA Workspace Variables">d97311fd4715715025c42458c26d433f</parent_action>
+        <parent_action display_value="CreateTCAWorkspaceVariables">d97311fd4715715025c42458c26d433f</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e87791394755715025c42458c26d4324</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2227,7 +2227,7 @@
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 01:59:30</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:51:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2360,7 +2360,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=e87791394755715025c42458c26d4324^sys_idNOT IN2fe1e53147d5715025c42458c26d43cf,ac7791394755715025c42458c26d4341"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</action>
+        <action display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</action>
         <cid>5ac2f769-e916-4c06-b1d3-943ff8b649e6</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -2714,7 +2714,7 @@
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2fe1e53147d5715025c42458c26d43cf"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</action>
+        <action display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</action>
         <cid>a60948b5-a971-4c35-9800-1a11c43976dc</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -3146,7 +3146,7 @@
         <label>TOKEN</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_e87791394755715025c42458c26d4324</name>
@@ -3230,7 +3230,7 @@
         <label>Content-Type</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_e87791394755715025c42458c26d4324</name>
@@ -3253,14 +3253,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_id>6c7791394755715025c42458c26d432e</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:51:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3314,7 +3314,7 @@
         <label>Workspace-Id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_e87791394755715025c42458c26d4324</name>
@@ -3398,7 +3398,7 @@
         <label>AWS-Secret-Key</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_e87791394755715025c42458c26d4324</name>
@@ -3482,7 +3482,7 @@
         <label>AWS-Access-Key</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_e87791394755715025c42458c26d4324</name>
@@ -3569,7 +3569,7 @@
         <label>Access Key Status Code</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
@@ -3592,14 +3592,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 01:59:31</sys_created_on>
         <sys_id>026f3d8a475df15025c42458c26d4346</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:51:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3656,7 +3656,7 @@
         <label>Secret Key Status Code</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
@@ -3679,14 +3679,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 01:59:31</sys_created_on>
         <sys_id>0a6f3d8a475df15025c42458c26d4351</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:51:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3743,7 +3743,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
@@ -3830,7 +3830,7 @@
         <label>Secret Key Response</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
@@ -3853,14 +3853,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 01:59:31</sys_created_on>
         <sys_id>466f3d8a475df15025c42458c26d4355</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:51:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3917,7 +3917,7 @@
         <label>Access Key Response</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
@@ -3940,14 +3940,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 01:59:31</sys_created_on>
         <sys_id>826f3d8a475df15025c42458c26d434b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:51:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4004,7 +4004,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</model>
+        <model display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</model>
         <model_id>e87791394755715025c42458c26d4324</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e87791394755715025c42458c26d4324</name>
@@ -4027,14 +4027,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:27</sys_created_on>
         <sys_id>b47791394755715025c42458c26d43bc</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 02:02:46</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:51:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4052,7 +4052,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=e87791394755715025c42458c26d4324"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=e87791394755715025c42458c26d4324^sys_idNOT IN307791394755715025c42458c26d43d9"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Create TCA Workspace Variables">e87791394755715025c42458c26d4324</action_type_id>
+        <action_type_id display_value="CreateTFCWorkspaceVariables">e87791394755715025c42458c26d4324</action_type_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-16 04:26:28</sys_created_on>
         <sys_id>307791394755715025c42458c26d43d9</sys_id>

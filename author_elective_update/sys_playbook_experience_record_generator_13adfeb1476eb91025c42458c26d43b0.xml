@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_record_generator">
+    <sys_playbook_experience_record_generator action="DELETE">
+        <active>true</active>
+        <create_record_activity_name>Automated Create Record</create_record_activity_name>
+        <create_record_form_view display_value="Default view" name="NULL">Default view</create_record_form_view>
+        <order>0</order>
+        <process_definition display_value="Register Customer">f54a5fb447a6b11025c42458c26d43e7</process_definition>
+        <sys_class_name>sys_playbook_experience_record_generator</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 15:12:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>13adfeb1476eb91025c42458c26d43b0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_snc_aws_sns_customer_lifecycles</sys_name>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_update_name>sys_playbook_experience_record_generator_13adfeb1476eb91025c42458c26d43b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 15:19:24</sys_updated_on>
+        <table>x_snc_aws_sns_customer_lifecycles</table>
+        <template_fields/>
+    </sys_playbook_experience_record_generator>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</application>
+        <file_path/>
+        <instance_id>7196912adba32490d5c911f84896197c</instance_id>
+        <instance_name>dev112375</instance_name>
+        <name>sys_playbook_experience_record_generator_13adfeb1476eb91025c42458c26d43b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_record_generator"><sys_playbook_experience_record_generator action="INSERT_OR_UPDATE"><active>true</active><create_record_activity_name>Automated Create Record</create_record_activity_name><create_record_form_view display_value="Default view" name="NULL">Default view</create_record_form_view><order>0</order><process_definition display_value="Register Customer">f54a5fb447a6b11025c42458c26d43e7</process_definition><sys_class_name>sys_playbook_experience_record_generator</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-17 15:12:59</sys_created_on><sys_domain>global</sys_domain><sys_id>13adfeb1476eb91025c42458c26d43b0</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_snc_aws_sns_customer_lifecycles</sys_name><sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package><sys_policy/><sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope><sys_update_name>sys_playbook_experience_record_generator_13adfeb1476eb91025c42458c26d43b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-17 15:19:24</sys_updated_on><table>x_snc_aws_sns_customer_lifecycles</table><template_fields/></sys_playbook_experience_record_generator></record_update>]]></payload>
+        <payload_hash>635818547</payload_hash>
+        <record_name>x_snc_aws_sns_customer_lifecycles</record_name>
+        <reverted_from/>
+        <source>089656d547597d1025c42458c26d4385</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 15:19:24</sys_created_on>
+        <sys_id>067f7a75476eb91025c42458c26d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bdddd881b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 15:19:24</sys_updated_on>
+        <type>Playbook Experience Record Generator</type>
+        <update_guid>ca7f7a75986eb910943ad84b0bbe16db</update_guid>
+        <update_guid_history>ca7f7a75986eb910943ad84b0bbe16db:635818547,cede7635146eb9107de373f565a1ef7b:83363585,cc0efaf1e76eb910aa72ad08ef2e1407:635818547</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 15:20:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_playbook_experience_record_generator">sys_playbook_experience_record_generator</sys_db_object>
+        <sys_id>a34edf9a38fe45a084de7e122eaf3c10</sys_id>
+        <sys_metadata>13adfeb1476eb91025c42458c26d43b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_aws_sns_customer_lifecycles</sys_name>
+        <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
+        <sys_scope_delete display_value="">378c22e3814c44ecbc024f54246ab810</sys_scope_delete>
+        <sys_update_name>sys_playbook_experience_record_generator_13adfeb1476eb91025c42458c26d43b0</sys_update_name>
+        <sys_update_version display_value="sys_playbook_experience_record_generator_13adfeb1476eb91025c42458c26d43b0">067f7a75476eb91025c42458c26d43dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 15:20:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

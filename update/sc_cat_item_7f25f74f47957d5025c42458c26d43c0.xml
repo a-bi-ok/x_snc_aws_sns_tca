@@ -4,17 +4,22 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Compute">267b6615471d7d1025c42458c26d43fc</category>
+        <category display_value="Application">087a558e0bc53200eff7ef9bb4673a2e</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><strong>Instance Details:</strong></p>
+        <description><![CDATA[<div>
+<div>
+<p><strong>MID Server (Management, Instrumentation, and Discovery Server) is a software component that facilitates communication between the ServiceNow platform and external systems. MID Servers are typically used to integrate with on-premises systems or systems that are not accessible from the public internet.</strong></p>
+<p><strong>Instance Details:</strong></p>
 <ol style="list-style-type: none; list-style-position: inside;"><li><strong>Instance Name</strong>: [Provide a unique and descriptive name]</li><li><strong>Instance Type</strong>: [Specify the desired instance type, e.g., t2.micro]</li><li><strong>Operating System</strong>: [Specify the desired OS, e.g., Amazon Linux 2, Ubuntu 20.04]</li><li><strong>AMI ID (if known)</strong>: [Optional, provide if specific AMI is required]</li><li><strong>Storage Type and Size</strong>:
 <ul style="list-style-type: disc; list-style-position: inside;"><li>Root Volume: [Type, Size (in GB)]</li><li>Additional Volumes: [Type, Size (in GB), if applicable]</li></ul>
-</li><li><strong>Security Group(s)</strong>: [List specific security groups to be attached]</li><li><strong>Key Pair</strong>: [Specify the key pair for SSH access, or request creation if new]</li><li><strong>Subnet</strong>: [Specify the subnet for the instance]</li><li><strong>IAM Role (if needed)</strong>: [Specify if an IAM role needs to be attached]</li><li><strong>Tags</strong>: [Optional: Add any relevant tags]</li></ol>]]></description>
+</li><li><strong>Security Group(s)</strong>: [List specific security groups to be attached]</li><li><strong>Key Pair</strong>: [Specify the key pair for SSH access, or request creation if new]</li><li><strong>Subnet</strong>: [Specify the subnet for the instance]</li><li><strong>IAM Role (if needed)</strong>: [Specify if an IAM role needs to be attached]</li><li><strong>Tags</strong>: [Optional: Add any relevant tags]</li></ol>
+</div>
+</div>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow display_value="Provision AWS Resources via TCA">41fd5b9d4791bd1025c42458c26d4340</flow_designer_flow>
@@ -31,7 +36,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>AWS Instance Request</name>
+        <name>AWS Mid Server Request</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>true</no_cart_v2>
@@ -48,7 +53,7 @@
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a821e29d47997d1025c42458c26d431c&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=7f25f74f47957d5025c42458c26d43c0&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
@@ -59,50 +64,50 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description>A catalog item to request approvals the creation of an AWS Instance</short_description>
+        <short_description>A catalog item to request approvals the creation of an AWS Mid Server</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-14 20:41:57</sys_created_on>
-        <sys_id>a821e29d47997d1025c42458c26d431c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>AWS Instance Request</sys_name>
+        <sys_created_on>2023-09-20 13:08:01</sys_created_on>
+        <sys_id>7f25f74f47957d5025c42458c26d43c0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>AWS Mid Server Request</sys_name>
         <sys_package display_value="AWS SNS" source="x_snc_aws_sns">24cd01fe13391f006b9054c32244b0f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS SNS">24cd01fe13391f006b9054c32244b0f3</sys_scope>
-        <sys_update_name>sc_cat_item_a821e29d47997d1025c42458c26d431c</sys_update_name>
+        <sys_update_name>sc_cat_item_7f25f74f47957d5025c42458c26d43c0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-20 13:12:17</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:14:15</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>14</version>
+        <version>16</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=a821e29d47997d1025c42458c26d431c"/>
-    <fx_price action="delete_multiple" query="id=a821e29d47997d1025c42458c26d431c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7f25f74f47957d5025c42458c26d43c0"/>
+    <fx_price action="delete_multiple" query="id=7f25f74f47957d5025c42458c26d43c0"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>a821e29d47997d1025c42458c26d431c</id>
+        <id>7f25f74f47957d5025c42458c26d43c0</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-14 20:41:57</sys_created_on>
-        <sys_id>6283a2d147d97d1025c42458c26d43c0</sys_id>
+        <sys_created_on>2023-09-20 13:08:01</sys_created_on>
+        <sys_id>fb25f74f47957d5025c42458c26d43c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-14 20:41:57</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:08:01</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
@@ -110,16 +115,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>recurring_price</field>
-        <id>a821e29d47997d1025c42458c26d431c</id>
+        <id>7f25f74f47957d5025c42458c26d43c0</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-14 20:41:57</sys_created_on>
-        <sys_id>3a83a2d147d97d1025c42458c26d43c1</sys_id>
+        <sys_created_on>2023-09-20 13:08:01</sys_created_on>
+        <sys_id>7b25f74f47957d5025c42458c26d43c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-14 20:41:57</sys_updated_on>
+        <sys_updated_on>2023-09-20 13:08:01</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

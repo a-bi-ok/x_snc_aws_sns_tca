@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ffdfafac47a6311025c42458c26d439f" extends="task" label="Customer Lifecycles" max_length="40" name="x_snc_aws_sns_customer_lifecycles" type="collection">
+        <element label="Provisioned" max_length="40" name="provisioned" type="boolean"/>
+    </element>
+</database>
